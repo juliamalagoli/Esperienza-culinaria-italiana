@@ -269,6 +269,10 @@ fast mobile performance, alt text, London-focused copy.
   brand colours + Fraunces/Inter) listing the aperitivo drinks & bites. For Instagram
   / print; source in `assets/social/aperitivo-card.html`. (A designed graphic, not a
   photo — real food photography still to come.)
+- `assets/italy-at-your-table-menus.pdf` — printable **A4 menu PDF** (4 pages: cover
+  + aperitivo, then vegetarian / meat / fish). Linked as a "Download the Menu (PDF)"
+  button on the Menus page (hero + closing CTA). Source: `assets/social/menu-print.html`.
+  Regenerate by rendering that HTML to PDF (A4, print backgrounds).
 
 ## 16. To-do
 
