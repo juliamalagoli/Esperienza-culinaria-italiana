@@ -14,8 +14,10 @@
 | **Last updated** | 2026-07-18 |
 | **Brand name** | ✅ **Italy at Your Table** (locked 2026-07-18) |
 | **Website** | ✅ v1 built — 8 pages, responsive, browser-verified. Not deployed. |
-| **Instagram** | Strategy drafted (see §12) |
-| **Biggest blocker** | Chef's name + personal story facts; contact/booking details; photos |
+| **Instagram** | Strategy drafted (see §12); handle not yet created |
+| **Chef** | Julia Malagoli — from Modena, Emilia-Romagna |
+| **Booking** | WhatsApp only: 07514 488722 · serves central & north London |
+| **Biggest blocker** | Real photography; real reviews; domain; deploy |
 
 ---
 
@@ -91,22 +93,31 @@ Earlier shortlist (A Tavola, Tavola, etc.) retained here for history only.
 - **2026-07-18** — Proceeding on recommended defaults: build full static site for
   review first (deploy after sign-off); tasteful placeholders + shot list; colour
   palette & Fraunces/Inter typography as in §13.
+- **2026-07-18** — **Chef:** Julia Malagoli, from **Modena** (Emilia-Romagna),
+  taught by her grandmothers. Emilia-Romagna heritage (Parmigiano, balsamico, ragù,
+  fresh pasta) woven through the copy.
+- **2026-07-18** — **Booking channel: WhatsApp only** (07514 488722). No enquiry
+  form / email for now; contact page + all CTAs route to WhatsApp.
+- **2026-07-18** — **Service area:** central and north London.
+- **2026-07-18** — **Instagram:** handle not yet created.
+- **2026-07-18** — **About page copy provided by Julia** ("Bringing the heart of
+  Italy to your table") and used verbatim with light typographic polish.
 
 ## 6. Open questions (need the chef's input)
 
-*Resolved: brand name ✅, pricing ✅ (bespoke/enquire), build approach ✅ (build all
-pages, no deploy yet), photography ✅ (placeholders + shot list).*
+*Resolved: brand name ✅ · pricing ✅ (bespoke/enquire) · build ✅ · photography ✅
+(placeholders + shot list) · chef name ✅ (Julia Malagoli) · story ✅ (client-provided
+About copy) · booking ✅ (WhatsApp only, 07514 488722) · service areas ✅ (central &
+north London).*
 
-Still needed (marked as `[brackets]` in the built site until answered):
+Still open:
 
-1. **Chef's name / credited name** — for the About signature and "by [Name]" line
-   (first name, or full name?).
-2. **Personal story facts** — where in Italy you're from, how you came to London,
-   who taught you to cook. I will not invent these; About copy is written in your
-   voice with `[bracketed]` gaps for the true details.
-3. **Contact + booking** — contact email, whether to show WhatsApp/phone, and which
-   parts of London you serve.
-4. **Deploy** — when the site's approved, confirm Netlify deploy + any domain.
+1. **Photography** — real images to replace placeholders (shot list in §13).
+2. **Reviews** — real guest quotes to replace the placeholder testimonials.
+3. **Instagram** — handle not yet created; confirm when ready and I'll finalise §12.
+4. **Domain** — choose/register (site currently uses `italyatyourtable.co.uk` as a
+   placeholder in canonicals/sitemap).
+5. **Deploy** — confirm when to deploy to Netlify.
 
 ## 7. Website structure (planned)
 
@@ -243,26 +254,23 @@ fast mobile performance, alt text, London-focused copy.
 `reviews.html` · `faq.html` · `contact.html` · `css/styles.css` · `js/main.js` ·
 `assets/favicon.svg` · `robots.txt` · `sitemap.xml`.
 
-### Placeholders to fill before launch (search the codebase for these)
-- `[your name]`, `[your region / town in Italy]`, `[who taught you…]`, `[in year…]`
-  — About page story.
-- `[your email]`, `[your number]`, `[@handle]` — Contact + footers.
-- `[Confirm your service areas]`, group size, lead time, drinks approach — FAQ/Contact.
-- Guest quotes on `reviews.html` (`[Guest name]…`).
-- `italyatyourtable.co.uk` is used as a placeholder domain in canonicals/sitemap —
-  swap for the real domain once chosen.
-- Wire the booking form to email (e.g. Netlify Forms or Formspree) before launch.
+### Placeholders remaining before launch
+- ✅ Chef name, story, contact, booking channel, service areas — all filled.
+- ⏳ Real **photography** to replace the styled placeholders (shot list above).
+- ⏳ Real **guest quotes** on `reviews.html` (still `[Guest name]…`) and the one
+  testimonial on the Home page.
+- ⏳ Real **domain** — `italyatyourtable.co.uk` is a placeholder in canonicals/sitemap.
+- ⏳ **Instagram** handle in footers/links once created.
+- Note: booking is WhatsApp-only, so no form/email wiring is needed.
 
 ## 16. To-do
 
-- [ ] Chef's name + personal story facts → fill About page placeholders.
-- [ ] Contact/booking details (email, WhatsApp, service areas) → fill Contact/FAQ.
 - [ ] Provide real photography (see shot list §13) to replace placeholders.
-- [ ] Choose + register the real domain; update canonicals/sitemap.
-- [ ] Wire booking form to email (Netlify Forms / Formspree).
-- [ ] Deploy to Netlify.
-- [ ] Finalise Instagram handle + build the launch grid (9–12 posts).
 - [ ] Gather first real guest reviews to replace placeholder quotes.
+- [ ] Create the Instagram handle; then finalise grid + add links to the site.
+- [ ] Choose + register the real domain; update canonicals/sitemap.
+- [ ] Deploy to Netlify.
+- [ ] (Optional) Build the Instagram launch grid (9–12 posts + captions).
 
 ## 17. Completed tasks
 
@@ -278,16 +286,23 @@ fast mobile performance, alt text, London-focused copy.
       favicon.
 - [x] Browser-verified (desktop + mobile) via Playwright; fixed hero-render and
       scroll-reveal bugs found in review.
+- [x] Personalised for Julia Malagoli: About story (client-provided copy), Modena/
+      Emilia-Romagna woven through, WhatsApp-only booking (07514 488722), central &
+      north London service area, JSON-LD founder + telephone. All personal
+      placeholders filled.
 
 ## 18. Next steps (recommended)
 
-1. **Review the site.** Skim the 8 pages (run locally, or I can deploy a preview).
-   Tell me what to adjust in tone, layout or emphasis.
-2. **Send me the personal details** to replace placeholders: your name, a few story
-   facts for About, contact email/WhatsApp, and the London areas you serve.
-3. **Photography** — capture the shot list (§13) when you can; I'll drop images in.
-4. Then: wire the booking form, pick a domain, and deploy to Netlify.
-5. In parallel, I can build the **Instagram launch grid** (9–12 posts + captions).
+The site is now personalised and content-complete except for photos and reviews.
+Recommended order:
+1. **Photography** — capture the shot list (§13); even good phone photos in daylight
+   work. Send them over and I'll place them.
+2. **Pick a domain** (e.g. italyatyourtable.co.uk if available) so I can finalise
+   SEO tags.
+3. **Deploy to Netlify** — I can do this whenever you're ready for it to be live.
+4. **Instagram** — create the handle; I'll build the launch grid (9–12 posts +
+   captions) and link it across the site.
+5. Add **real reviews** as your first dinners happen.
 
 ## 19. Version history
 
@@ -301,3 +316,9 @@ fast mobile performance, alt text, London-focused copy.
   design system, responsive nav, SEO scaffolding, favicon, and browser verification
   (two review bugs fixed). Added photography shot list, technical decisions, and the
   placeholder checklist. Site is ready for review; not yet deployed.
+- **v1.1 — 2026-07-18** — **Personalised for Julia Malagoli.** About page now uses
+  Julia's own copy ("Bringing the heart of Italy to your table"); Modena/Emilia-
+  Romagna woven into Home + About; booking switched to **WhatsApp-only**
+  (07514 488722) with a redesigned Contact page and site-wide WhatsApp CTAs/footers;
+  service area set to central & north London; JSON-LD updated with founder +
+  telephone. All personal placeholders resolved (photos & reviews still pending).
