@@ -207,10 +207,21 @@ enquire for a quote." See Open Question #3.
 - Charcoal ink (text) — `#221F1B`
 - Brass / gold accent — `#B08D57`
 
-**Typography (recommended):**
+**Logo (final):** "Italy at Your Table" — a fine-line **crossed fork & knife**
+mark (antique gold `#a98b52`) above/beside a **Marcellus** wordmark, with a
+**Cormorant Garamond** descriptor ("Private Italian Dining · London"). Client-
+provided design (option 4a). Implemented as: header lockup, reversed cream/gold
+version on the dark footer, standalone `assets/logo-mark.svg`, and a matching
+favicon. Logo tokens: ink `#3c4335`, gold mark `#a98b52`, accent gold `#8a7440`,
+hairline `#cdb98a`, taupe `#9a8a68`.
+
+**Typography:**
+- Logo wordmark: **Marcellus**; logo descriptor: **Cormorant Garamond**.
 - Display / headings: **Fraunces** (warm, characterful modern serif).
 - Body / UI: **Inter** (quiet, highly legible humanist sans).
 - Accent: Fraunces italic for pull-quotes.
+- *Open option:* we could shift site headings from Fraunces to Marcellus to match
+  the logo exactly — a bigger change; Fraunces currently harmonises well.
 
 **Image direction:** natural daylight, warm neutral edit, real food & hands,
 tablescapes, generous whitespace; no stocky/corporate imagery.
@@ -327,6 +338,13 @@ Recommended order:
   design system, responsive nav, SEO scaffolding, favicon, and browser verification
   (two review bugs fixed). Added photography shot list, technical decisions, and the
   placeholder checklist. Site is ready for review; not yet deployed.
+- **v1.2 — 2026-07-18** — **Brand logo added.** Implemented the client's crossed
+  fork & knife logo (Marcellus wordmark + Cormorant descriptor) as the header lockup
+  and a reversed cream/gold version in the footer across all 8 pages; added
+  `assets/logo-mark.svg`, updated the favicon to the mark, loaded Marcellus +
+  Cormorant Garamond, and tuned the nav (nowrap + hamburger below 1080px). Also
+  added the chef portrait (Home + About), the aperitivo card, and the printable
+  menu PDF this day.
 - **v1.1 — 2026-07-18** — **Personalised for Julia Malagoli.** About page now uses
   Julia's own copy ("Bringing the heart of Italy to your table"); Modena/Emilia-
   Romagna woven into Home + About; booking switched to **WhatsApp-only**

@@ -124,10 +124,19 @@ p { max-width: 66ch; }
 }
 .site-header.is-scrolled { border-color: var(--line); }
 .nav { display: flex; align-items: center; justify-content: space-between; height: 76px; }
-.brand { font-family: var(--serif); font-size: 1.35rem; letter-spacing: 0.01em; line-height: 1; }
-.brand span { color: var(--terracotta); }
-.nav-links { display: flex; align-items: center; gap: 1.9rem; }
-.nav-links a { font-size: 0.9rem; font-weight: 500; color: var(--ink); position: relative; padding-block: 0.25rem; }
+/* Brand logo lockup — crossed fork & knife mark + Marcellus wordmark */
+.brand { display: inline-flex; align-items: center; gap: 0.7rem; color: #a98b52; flex-shrink: 0; }
+.brand__mark { width: 32px; height: auto; flex-shrink: 0; color: #a98b52; }
+.brand__wm { display: flex; flex-direction: column; line-height: 1; }
+.brand__name { font-family: "Marcellus", Georgia, serif; font-size: 1.02rem; letter-spacing: 0.16em; text-transform: uppercase; color: #3c4335; padding-left: 0.16em; white-space: nowrap; }
+.brand__tag { font-family: "Cormorant Garamond", Georgia, serif; font-size: 0.6rem; letter-spacing: 0.24em; text-transform: uppercase; color: #9a8a68; margin-top: 4px; padding-left: 0.26em; white-space: nowrap; }
+.brand--reversed .brand__mark { color: #cdb98a; }
+.brand--reversed .brand__name { color: var(--ivory); }
+.brand--reversed .brand__tag { color: #cdb98a; }
+.brand--reversed .brand__mark { width: 40px; }
+.brand--reversed .brand__name { font-size: 1.15rem; }
+.nav-links { display: flex; align-items: center; gap: 1.4rem; }
+.nav-links a { font-size: 0.9rem; font-weight: 500; color: var(--ink); position: relative; padding-block: 0.25rem; white-space: nowrap; }
 .nav-links a::after {
   content: ""; position: absolute; left: 0; bottom: 0; width: 0; height: 1px;
   background: var(--terracotta); transition: width 0.35s var(--ease);
@@ -268,7 +277,7 @@ p { max-width: 66ch; }
 .site-footer a { color: rgba(251,246,238,0.8); transition: color 0.25s; }
 .site-footer a:hover { color: var(--ivory); }
 .footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: clamp(2rem, 5vw, 4rem); padding-bottom: 3rem; border-bottom: 1px solid rgba(251,246,238,0.14); }
-.footer-brand .brand { color: var(--ivory); font-size: 1.6rem; margin-bottom: 1rem; }
+.footer-brand .brand { margin-bottom: 1.1rem; }
 .footer-brand p { font-size: 0.95rem; max-width: 34ch; }
 .footer-col h4 { color: var(--ivory); font-family: var(--sans); font-size: 0.78rem; letter-spacing: 0.16em; text-transform: uppercase; margin-bottom: 1.1rem; opacity: 0.7; }
 .footer-col li { margin-bottom: 0.6rem; }
@@ -294,7 +303,7 @@ p { max-width: 66ch; }
 .section--olive .chip { border-color: rgba(251,246,238,0.25); }
 
 /* ----------------------------- Responsive ------------------------------ */
-@media (max-width: 860px) {
+@media (max-width: 1080px) {
   .nav-links {
     position: fixed; inset: 76px 0 auto 0;
     flex-direction: column; align-items: flex-start; gap: 0;
