@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root{
+    --ivory:#fbf6ee; --olive:#3e4a3a; --olive-deep:#2c352a; --terracotta:#c0663f;
+    --ink:#221f1b; --brass:#b08d57; --muted:#6f685c;
+  }
+  html,body{ width:100%; height:100%; }
+  .card{
+    width:1080px; height:1350px; background:var(--ivory); color:var(--ink);
+    position:relative; display:flex; flex-direction:column; align-items:center;
+    padding:96px 90px; overflow:hidden;
+  }
+  .card::before{ /* subtle dot texture */
+    content:""; position:absolute; inset:0;
+    background-image:radial-gradient(rgba(34,31,27,0.05) 1.5px, transparent 1.6px);
+    background-size:34px 34px; opacity:.6;
+  }
+  .frame{ position:absolute; inset:44px; border:1px solid rgba(176,141,87,.55); pointer-events:none; }
+  .inner{ position:relative; z-index:2; display:flex; flex-direction:column; align-items:center; height:100%; width:100%; }
+  .brandline{ font-family:Inter,sans-serif; font-size:22px; font-weight:600; letter-spacing:.42em;
+    text-transform:uppercase; color:var(--terracotta); }
+  .rule{ width:70px; height:2px; background:var(--brass); margin:34px 0; }
+  .kicker{ font-family:'Fraunces',serif; font-style:italic; font-size:34px; color:var(--muted); margin-bottom:10px; }
+  h1{ font-family:'Fraunces',serif; font-weight:400; font-size:92px; line-height:1.02; text-align:center;
+    letter-spacing:-.01em; }
+  .sections{ margin-top:74px; width:100%; display:flex; flex-direction:column; gap:60px; flex:1; }
+  .sec{ text-align:center; }
+  .sec h2{ font-family:Inter,sans-serif; font-size:24px; font-weight:600; letter-spacing:.3em;
+    text-transform:uppercase; color:var(--olive); margin-bottom:34px; position:relative; display:inline-block; }
+  .sec h2::before, .sec h2::after{ content:""; position:absolute; top:50%; width:60px; height:1px; background:rgba(62,74,58,.35); }
+  .sec h2::before{ right:calc(100% + 26px); } .sec h2::after{ left:calc(100% + 26px); }
+  .item{ font-family:'Fraunces',serif; font-size:44px; line-height:1.55; color:var(--ink); }
+  .footer{ font-family:Inter,sans-serif; font-size:22px; letter-spacing:.24em; text-transform:uppercase;
+    color:var(--muted); margin-top:56px; }
+  .salute{ font-family:'Fraunces',serif; font-style:italic; font-size:40px; color:var(--terracotta); margin-bottom:30px; }
+</style>
+</head>
+<body>
+  <div class="card" id="card">
+    <div class="frame"></div>
+    <div class="inner">
+      <div class="brandline">Italy at Your Table</div>
+      <div class="rule"></div>
+      <div class="kicker">To begin the evening</div>
+      <h1>The Welcome<br/>Aperitivo</h1>
+      <div class="sections">
+        <div class="sec">
+          <h2>To Drink</h2>
+          <div class="item">Aperol Spritz &nbsp;·&nbsp; Pimm's Cup</div>
+          <div class="item">Prosecco &nbsp;·&nbsp; Italian Wine</div>
+        </div>
+        <div class="sec">
+          <h2>To Nibble</h2>
+          <div class="item">Parmesan Crisps &nbsp;·&nbsp; Bruschetta</div>
+          <div class="item">Homemade Focaccia</div>
+          <div class="item">Grissini with Parma Ham</div>
+        </div>
+      </div>
+      <div class="salute">Salute.</div>
+      <div class="footer">Private Italian Dining · London</div>
+    </div>
+  </div>
+</body>
+</html>

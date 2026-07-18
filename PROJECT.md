@@ -256,12 +256,19 @@ fast mobile performance, alt text, London-focused copy.
 
 ### Placeholders remaining before launch
 - ✅ Chef name, story, contact, booking channel, service areas — all filled.
-- ⏳ Real **photography** to replace the styled placeholders (shot list above).
-- ⏳ Real **guest quotes** on `reviews.html` (still `[Guest name]…`) and the one
-  testimonial on the Home page.
+- ✅ **Chef portrait** added (`assets/julia-malagoli.jpg`) — live on Home + About.
+- ⏳ Real **food/table photography** to replace remaining placeholders (shot list above):
+  signature dish, aperitivo spread, tablescape, gallery dishes.
+- ⏳ Real **guest quotes** on `reviews.html` and the Home testimonial.
 - ⏳ Real **domain** — `italyatyourtable.co.uk` is a placeholder in canonicals/sitemap.
 - ⏳ **Instagram** handle in footers/links once created.
 - Note: booking is WhatsApp-only, so no form/email wiring is needed.
+
+### Brand / social assets
+- `assets/social/aperitivo-card.png` — designed "Welcome Aperitivo" card (1080×1350,
+  brand colours + Fraunces/Inter) listing the aperitivo drinks & bites. For Instagram
+  / print; source in `assets/social/aperitivo-card.html`. (A designed graphic, not a
+  photo — real food photography still to come.)
 
 ## 16. To-do
 

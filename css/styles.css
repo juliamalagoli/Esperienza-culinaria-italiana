@@ -181,6 +181,9 @@ p { max-width: 66ch; }
 .ratio-16-9 { aspect-ratio: 16 / 9; }
 .rounded { border-radius: var(--radius); }
 
+/* Real photography filling an image slot (same box as a .ph placeholder) */
+.media-photo { width: 100%; display: block; object-fit: cover; object-position: center 28%; }
+
 /* ------------------------- Split / feature rows ------------------------ */
 .split { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 5vw, 5rem); align-items: center; }
 .split--reverse .split__media { order: 2; }
