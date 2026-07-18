@@ -152,19 +152,34 @@ Welcome aperitivo served while the chef finishes cooking.
 - **Mini bites:** Parmesan crisps · marinated olives · bruschetta · homemade
   focaccia · whipped ricotta · grissini · optional Parma ham.
 
-## 10. Menus (provided — to be styled on site)
+## 10. Menus (9 sample menus — live on site + PDF)
 
-**Vegetarian 1** — Burrata w/ heritage tomatoes, basil pesto & toasted sourdough ·
-Wild mushroom & truffle risotto · Classic Tiramisù.
-**Vegetarian 2** — Grilled aubergine rolls w/ ricotta · Homemade spinach & ricotta
-ravioli w/ sage butter · Panna Cotta w/ berry coulis.
-**Meat 1** — Beef carpaccio · Fresh pappardelle w/ slow-cooked beef ragù ·
-Chocolate Caprese cake.
-**Meat 2** — Prosciutto di Parma & buffalo mozzarella · Chicken Saltimbocca w/
-Parmesan mashed potatoes · Lemon Posset.
-**Fish 1** — Seared scallops w/ pea purée · Baked sea bass w/ Mediterranean
-vegetables · Lemon Tiramisù.
-**Fish 2** — Octopus carpaccio · Homemade seafood linguine · Pistachio Panna Cotta.
+Each menu opens with the **aperitivo mini starters**. Veg menus:
+*Parmesan crisps · bruschetta · homemade focaccia · vegetarian omelette with cream
+cheese & courgettes.* Meat & fish menus end the aperitivo with *grissini with Parma
+ham.* Welcome aperitivo drinks: Aperol Spritz · Pimm's Cup · Prosecco · Italian wine ·
+alcohol-free spritz.
+
+**Veg 1 — Garden & Truffle:** Burrata, heritage tomatoes, pesto & sourdough · Wild
+mushroom & truffle risotto · Classic Tiramisù.
+**Veg 2 — Handmade & Herbaceous:** Aubergine rolls w/ ricotta · Spinach & ricotta
+ravioli, sage butter · Panna Cotta w/ berry coulis.
+**Veg 3 — Flavours of Puglia:** Burrata w/ roasted peaches, pistachios, basil oil &
+aged balsamic · Pumpkin & amaretti tortelli, browned butter, sage & Parmigiano ·
+Ricotta cheesecake w/ Amalfi lemon & honey.
+**Meat 1 — Ragù & Cioccolato:** Beef carpaccio · Pappardelle w/ beef ragù · Chocolate
+Caprese cake.
+**Meat 2 — Roman Comfort:** Prosciutto di Parma & buffalo mozzarella · Chicken
+Saltimbocca, Parmesan mash · Lemon Posset.
+**Meat 3 — Emilia-Romagna Tradition:** Parmigiano mousse w/ Traditional Balsamic of
+Modena, walnuts & focaccia · Slow-braised beef cheek in Sangiovese, Parmesan polenta &
+roasted veg · Classic Zuppa Inglese.
+**Fish 1 — Mediterranean Table:** Seared scallops, pea purée · Baked sea bass,
+Mediterranean veg · Lemon Tiramisù.
+**Fish 2 — Coastal & Bright:** Octopus carpaccio · Seafood linguine · Pistachio Panna
+Cotta.
+**Fish 3 — Taste of the Mediterranean:** Tuna tartare, avocado, citrus & crostini ·
+Saffron seafood risotto w/ prawns, mussels & clams · Orange & almond cake, mascarpone.
 
 > Framing on site: sample menus, seasonal, tailored to each client — not a fixed carte.
 

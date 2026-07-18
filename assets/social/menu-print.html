@@ -6,95 +6,65 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 <style>
-  :root{
-    --ivory:#fbf6ee; --ivory-deep:#f3ead9; --olive:#3e4a3a; --olive-deep:#2c352a;
-    --terracotta:#c0663f; --ink:#221f1b; --brass:#b08d57; --muted:#6f685c; --line:rgba(34,31,27,.14);
-  }
-  @page { size: A4; margin: 0; }
+  :root{ --ivory:#fbf6ee; --olive:#3e4a3a; --terracotta:#c0663f; --ink:#221f1b; --brass:#b08d57; --muted:#6f685c; --line:rgba(34,31,27,.14); }
+  @page { size:A4; margin:14mm; }
   *{ margin:0; padding:0; box-sizing:border-box; }
   body{ font-family:'Inter',sans-serif; color:var(--ink); -webkit-print-color-adjust:exact; print-color-adjust:exact; }
-  .page{ width:210mm; min-height:297mm; padding:20mm 20mm; position:relative;
-    background:var(--ivory); page-break-after:always; overflow:hidden; }
-  .page:last-child{ page-break-after:auto; }
-  .frame{ position:absolute; inset:11mm; border:1px solid rgba(176,141,87,.55); pointer-events:none; }
-  .content{ position:relative; z-index:2; height:100%; }
 
-  .brandline{ font-size:11pt; font-weight:600; letter-spacing:.34em; text-transform:uppercase;
-    color:var(--terracotta); text-align:center; }
+  .cover{ min-height:252mm; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; }
+  .cover-mark{ width:74px; height:auto; margin:0 auto 20px; }
+  .brandline{ font-size:11pt; font-weight:600; letter-spacing:.34em; text-transform:uppercase; color:var(--terracotta); }
   .rule{ width:54px; height:2px; background:var(--brass); margin:16px auto; }
-  h1.title{ font-family:'Fraunces',serif; font-weight:400; font-size:46pt; line-height:1.03; text-align:center;
-    letter-spacing:-.01em; }
-  .subtitle{ font-family:'Fraunces',serif; font-style:italic; font-size:16pt; color:var(--muted);
-    text-align:center; margin-top:14px; }
+  .kicker{ font-family:'Fraunces',serif; font-style:italic; font-size:17pt; color:var(--muted); margin-bottom:8px; }
+  .title{ font-family:'Fraunces',serif; font-weight:400; font-size:46pt; line-height:1.03; }
+  .subtitle{ font-family:'Fraunces',serif; font-style:italic; font-size:15pt; color:var(--muted); margin-top:12px; }
+  .aperitivo{ margin-top:40px; max-width:150mm; border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding:22px 0; }
+  .aperitivo h2{ font-size:12pt; letter-spacing:.28em; text-transform:uppercase; color:var(--olive); margin-bottom:12px; }
+  .aperitivo .lead{ font-family:'Fraunces',serif; font-size:14pt; line-height:1.6; }
+  .price{ margin-top:22px; font-size:10.5pt; letter-spacing:.14em; text-transform:uppercase; color:var(--olive); }
+  .contact{ margin-top:34px; font-size:10pt; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
 
-  /* Cover */
-  .cover .content{ display:flex; flex-direction:column; align-items:center; justify-content:center;
-    text-align:center; min-height:257mm; }
-  .cover-mark{ width:74px; height:auto; display:block; margin:0 auto 20px; }
-  .cover .kicker{ font-family:'Fraunces',serif; font-style:italic; font-size:17pt; color:var(--muted); margin-bottom:8px; }
-  .cover .price{ margin-top:26px; font-size:10.5pt; letter-spacing:.14em; text-transform:uppercase; color:var(--olive); }
-  .aperitivo{ margin-top:44px; width:100%; max-width:150mm; border-top:1px solid var(--line);
-    border-bottom:1px solid var(--line); padding:26px 0; }
-  .aperitivo h2{ font-size:12pt; letter-spacing:.28em; text-transform:uppercase; color:var(--olive); margin-bottom:14px; }
-  .aperitivo .lead{ font-family:'Fraunces',serif; font-size:15pt; line-height:1.6; }
-  .cover .contact{ margin-top:auto; padding-top:34px; font-size:10pt; letter-spacing:.12em;
-    text-transform:uppercase; color:var(--muted); }
+  .category{ break-before:page; }
+  .cat-head{ text-align:center; margin-bottom:6mm; }
+  .cat-head .eyebrow{ font-size:11pt; font-weight:600; letter-spacing:.3em; text-transform:uppercase; color:var(--terracotta); }
+  .cat-head h2{ font-family:'Fraunces',serif; font-weight:400; font-size:28pt; margin-top:6px; }
 
-  /* Menu pages */
-  .page-head{ text-align:center; margin-bottom:14mm; }
-  .page-head .eyebrow{ font-size:11pt; font-weight:600; letter-spacing:.3em; text-transform:uppercase; color:var(--terracotta); }
-  .page-head h2{ font-family:'Fraunces',serif; font-weight:400; font-size:30pt; margin-top:8px; }
-
-  .menus{ display:flex; flex-direction:column; gap:12mm; }
-  .card{ border:1px solid var(--line); border-radius:3px; padding:11mm 12mm; background:#fff; }
-  .card .tag{ font-size:9.5pt; font-weight:600; letter-spacing:.2em; text-transform:uppercase; color:var(--terracotta); }
-  .card .name{ font-family:'Fraunces',serif; font-size:20pt; margin:6px 0 14px; }
-  .course{ padding:7px 0; border-top:1px solid var(--line); display:flex; gap:16px; align-items:baseline; }
+  .card{ break-inside:avoid; border:1px solid #e3d7bf; background:#faf5ea; border-radius:3px; padding:5.5mm 9mm; margin-bottom:5mm; }
+  .card .tag{ font-size:9pt; font-weight:600; letter-spacing:.2em; text-transform:uppercase; color:var(--terracotta); }
+  .card .name{ font-family:'Fraunces',serif; font-size:17pt; margin:4px 0 8px; }
+  .course{ padding:4.5px 0; border-top:1px solid var(--line); display:flex; gap:14px; align-items:baseline; }
   .course:first-of-type{ border-top:0; padding-top:0; }
-  .course .lbl{ font-size:8.5pt; letter-spacing:.16em; text-transform:uppercase; color:var(--muted);
-    width:66px; flex-shrink:0; }
-  .course .dish{ font-family:'Fraunces',serif; font-size:13.5pt; line-height:1.35; }
+  .course .lbl{ font-size:8pt; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); width:64px; flex-shrink:0; }
+  .course .dish{ font-family:'Fraunces',serif; font-size:12.5pt; line-height:1.35; }
 
-  .closing{ text-align:center; margin-top:14mm; }
-  .closing .q{ font-family:'Fraunces',serif; font-style:italic; font-size:18pt; color:var(--terracotta); }
-  .closing .c{ margin-top:20px; font-size:10pt; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); line-height:1.9; }
+  .closing{ text-align:center; margin-top:7mm; }
+  .closing .q{ font-family:'Fraunces',serif; font-style:italic; font-size:16pt; color:var(--terracotta); }
+  .closing .c{ margin-top:14px; font-size:9.5pt; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); line-height:1.9; }
 </style>
 </head>
 <body>
 
-  <!-- COVER -->
-  <section class="page cover">
-    <div class="frame"></div>
-    <div class="content">
-      <svg class="cover-mark" viewBox="0 0 120 90" fill="none" stroke="#a98b52" stroke-width="1.05" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><g transform="translate(60,46) scale(1.7)"><g transform="rotate(-22)"><path d="M0 -5 L0 24"/><path d="M-4.5 -24 L-4.5 -13 M-1.5 -25 L-1.5 -13 M1.5 -25 L1.5 -13 M4.5 -24 L4.5 -13"/><path d="M-4.5 -13 Q-4.5 -7 0 -5 Q4.5 -7 4.5 -13"/></g><g transform="rotate(22)"><path d="M0 24 L0 -2"/><path d="M0 -2 Q4.8 -12 3.6 -20 Q3.2 -23 0 -22 Z"/></g></g></svg>
-      <div class="brandline">Italy at Your Table</div>
-      <div class="rule"></div>
-      <div class="kicker">Private Italian dining, at home</div>
-      <h1 class="title">Sample Menus</h1>
-      <div class="subtitle">Cooked fresh in your kitchen · London</div>
-
-      <div class="aperitivo">
-        <h2>A Welcome Aperitivo</h2>
-        <p class="lead">Aperol Spritz · Pimm's Cup · Prosecco · Italian wine · alcohol-free spritz<br/>
-        Each menu opens with a few mini starters to nibble</p>
-      </div>
-
-      <div class="price">Bespoke — enquire for a quote</div>
-
-      <div class="contact">Bookings by WhatsApp · 07514&nbsp;488722 · Central &amp; North London</div>
+  <section class="cover">
+    <svg class="cover-mark" viewBox="0 0 120 90" fill="none" stroke="#a98b52" stroke-width="1.05" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><g transform="translate(60,46) scale(1.7)"><g transform="rotate(-22)"><path d="M0 -5 L0 24"/><path d="M-4.5 -24 L-4.5 -13 M-1.5 -25 L-1.5 -13 M1.5 -25 L1.5 -13 M4.5 -24 L4.5 -13"/><path d="M-4.5 -13 Q-4.5 -7 0 -5 Q4.5 -7 4.5 -13"/></g><g transform="rotate(22)"><path d="M0 24 L0 -2"/><path d="M0 -2 Q4.8 -12 3.6 -20 Q3.2 -23 0 -22 Z"/></g></g></svg>
+    <div class="brandline">Italy at Your Table</div>
+    <div class="rule"></div>
+    <div class="kicker">Private Italian dining, at home</div>
+    <div class="title">Sample Menus</div>
+    <div class="subtitle">Cooked fresh in your kitchen · London</div>
+    <div class="aperitivo">
+      <h2>A Welcome Aperitivo</h2>
+      <p class="lead">Aperol Spritz · Pimm's Cup · Prosecco · Italian wine · alcohol-free spritz<br/>Each menu opens with a few mini starters to nibble</p>
     </div>
+    <div class="price">Bespoke — enquire for a quote</div>
+    <div class="contact">Bookings by WhatsApp · 07514&nbsp;488722 · Central &amp; North London</div>
   </section>
 
-  <!-- VEGETARIAN -->
-  <section class="page">
-    <div class="frame"></div>
-    <div class="content">
-      <div class="page-head"><div class="eyebrow">Vegetarian</div><h2>From the garden</h2></div>
-      <div class="menus">
+  <section class="category">
+    <div class="cat-head"><div class="eyebrow">Vegetarian</div><h2>From the garden</h2></div>
         <div class="card">
           <div class="tag">Vegetarian · Menu One</div>
           <div class="name">Garden &amp; Truffle</div>
-          <div class="course"><span class="lbl">Aperitivo</span><span class="dish">Parmesan crisps · bruschetta · homemade focaccia · grissini with Parma ham</span></div>
+          <div class="course"><span class="lbl">Aperitivo</span><span class="dish">Parmesan crisps · bruschetta · homemade focaccia · vegetarian omelette with cream cheese and courgettes</span></div>
           <div class="course"><span class="lbl">Starter</span><span class="dish">Burrata with heritage tomatoes, basil pesto &amp; toasted sourdough</span></div>
           <div class="course"><span class="lbl">Main</span><span class="dish">Wild mushroom &amp; truffle risotto</span></div>
           <div class="course"><span class="lbl">Dessert</span><span class="dish">Classic Tiramisù</span></div>
@@ -102,21 +72,23 @@
         <div class="card">
           <div class="tag">Vegetarian · Menu Two</div>
           <div class="name">Handmade &amp; Herbaceous</div>
-          <div class="course"><span class="lbl">Aperitivo</span><span class="dish">Parmesan crisps · bruschetta · homemade focaccia · grissini with Parma ham</span></div>
+          <div class="course"><span class="lbl">Aperitivo</span><span class="dish">Parmesan crisps · bruschetta · homemade focaccia · vegetarian omelette with cream cheese and courgettes</span></div>
           <div class="course"><span class="lbl">Starter</span><span class="dish">Grilled aubergine rolls with ricotta</span></div>
           <div class="course"><span class="lbl">Main</span><span class="dish">Homemade spinach &amp; ricotta ravioli with sage butter</span></div>
           <div class="course"><span class="lbl">Dessert</span><span class="dish">Panna Cotta with berry coulis</span></div>
         </div>
-      </div>
-    </div>
+        <div class="card">
+          <div class="tag">Vegetarian · Menu Three</div>
+          <div class="name">Flavours of Puglia</div>
+          <div class="course"><span class="lbl">Aperitivo</span><span class="dish">Parmesan crisps · bruschetta · homemade focaccia · vegetarian omelette with cream cheese and courgettes</span></div>
+          <div class="course"><span class="lbl">Starter</span><span class="dish">Burrata with roasted peaches, toasted pistachios, basil oil and aged balsamic</span></div>
+          <div class="course"><span class="lbl">Main</span><span class="dish">Homemade pumpkin and amaretti tortelli with browned butter, crispy sage and Parmigiano Reggiano</span></div>
+          <div class="course"><span class="lbl">Dessert</span><span class="dish">Ricotta cheesecake with Amalfi lemon and honey</span></div>
+        </div>
   </section>
 
-  <!-- MEAT -->
-  <section class="page">
-    <div class="frame"></div>
-    <div class="content">
-      <div class="page-head"><div class="eyebrow">Meat</div><h2>Slow-cooked &amp; classic</h2></div>
-      <div class="menus">
+  <section class="category">
+    <div class="cat-head"><div class="eyebrow">Meat</div><h2>Slow-cooked &amp; classic</h2></div>
         <div class="card">
           <div class="tag">Meat · Menu One</div>
           <div class="name">Ragù &amp; Cioccolato</div>
@@ -133,16 +105,18 @@
           <div class="course"><span class="lbl">Main</span><span class="dish">Chicken Saltimbocca with Parmesan mashed potatoes</span></div>
           <div class="course"><span class="lbl">Dessert</span><span class="dish">Lemon Posset</span></div>
         </div>
-      </div>
-    </div>
+        <div class="card">
+          <div class="tag">Meat · Menu Three</div>
+          <div class="name">Emilia-Romagna Tradition</div>
+          <div class="course"><span class="lbl">Aperitivo</span><span class="dish">Parmesan crisps · bruschetta · homemade focaccia · grissini with Parma ham</span></div>
+          <div class="course"><span class="lbl">Starter</span><span class="dish">Parmigiano Reggiano mousse with Traditional Balsamic Vinegar of Modena, toasted walnuts and homemade focaccia</span></div>
+          <div class="course"><span class="lbl">Main</span><span class="dish">Slow-braised beef cheek in Sangiovese wine with creamy Parmesan polenta and roasted seasonal vegetables</span></div>
+          <div class="course"><span class="lbl">Dessert</span><span class="dish">Classic Zuppa Inglese</span></div>
+        </div>
   </section>
 
-  <!-- FISH -->
-  <section class="page">
-    <div class="frame"></div>
-    <div class="content">
-      <div class="page-head"><div class="eyebrow">Fish</div><h2>From the coast</h2></div>
-      <div class="menus">
+  <section class="category">
+    <div class="cat-head"><div class="eyebrow">Fish</div><h2>From the coast</h2></div>
         <div class="card">
           <div class="tag">Fish · Menu One</div>
           <div class="name">Mediterranean Table</div>
@@ -159,12 +133,17 @@
           <div class="course"><span class="lbl">Main</span><span class="dish">Homemade seafood linguine</span></div>
           <div class="course"><span class="lbl">Dessert</span><span class="dish">Pistachio Panna Cotta</span></div>
         </div>
-      </div>
-      <div class="closing">
-        <div class="q">Every menu is tailored to your table.</div>
-        <div class="c">Vegetarian · Meat · Fish — or a mix<br/>
-        To reserve your evening, message Julia on WhatsApp · 07514&nbsp;488722</div>
-      </div>
+        <div class="card">
+          <div class="tag">Fish · Menu Three</div>
+          <div class="name">Taste of the Mediterranean</div>
+          <div class="course"><span class="lbl">Aperitivo</span><span class="dish">Parmesan crisps · bruschetta · homemade focaccia · grissini with Parma ham</span></div>
+          <div class="course"><span class="lbl">Starter</span><span class="dish">Tuna tartare with avocado, citrus dressing, pink peppercorn and crispy crostini</span></div>
+          <div class="course"><span class="lbl">Main</span><span class="dish">Saffron seafood risotto with king prawns, mussels, clams and parsley oil</span></div>
+          <div class="course"><span class="lbl">Dessert</span><span class="dish">Orange and almond cake with mascarpone cream</span></div>
+        </div>
+    <div class="closing">
+      <div class="q">Every menu is tailored to your table.</div>
+      <div class="c">Vegetarian · Meat · Fish — or a mix<br/>To reserve your evening, message Julia on WhatsApp · 07514&nbsp;488722</div>
     </div>
   </section>
 
