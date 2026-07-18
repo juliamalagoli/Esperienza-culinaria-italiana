@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Italy at Your Table">
+  <rect width="64" height="64" rx="12" fill="#3e4a3a"/>
+  <text x="32" y="44" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#fbf6ee">I</text>
+  <circle cx="44" cy="20" r="4" fill="#c0663f"/>
+</svg>

@@ -10,12 +10,12 @@
 
 | | |
 |---|---|
-| **Phase** | 1 — Discovery & Brand Foundation |
+| **Phase** | 2 — Website Build (v1 complete, in review) |
 | **Last updated** | 2026-07-18 |
-| **Brand name** | ⏳ Not locked — recommendation on the table (see §4) |
-| **Website** | Not started (awaiting name) |
+| **Brand name** | ✅ **Italy at Your Table** (locked 2026-07-18) |
+| **Website** | ✅ v1 built — 8 pages, responsive, browser-verified. Not deployed. |
 | **Instagram** | Strategy drafted (see §12) |
-| **Biggest blocker** | Final brand name + chef's name / credited name |
+| **Biggest blocker** | Chef's name + personal story facts; contact/booking details; photos |
 
 ---
 
@@ -77,29 +77,36 @@ keep it personal, not corporate.
   invited-into-my-home feeling; excellent if the chef wants to be the face.
 - **"Dinner by [Name]"** — clean, premium, SEO-friendly with the name in it.
 
-**Decision:** ⏳ Pending — see Open Questions. My recommendation is **A Tavola**,
-with the chef's name in the tagline, unless the chef prefers to lead with their
-own name.
+**Decision:** ✅ **Italy at Your Table** (locked 2026-07-18). Rationale: warm and
+welcoming, instantly understood by a London/English-speaking audience, sells the
+promise directly (Italy, brought to *your* table), and carries real SEO value.
+Earlier shortlist (A Tavola, Tavola, etc.) retained here for history only.
 
 ## 5. Decisions made
 
 - **2026-07-18** — Repository initialised; `PROJECT.md` adopted as single source of
   truth. Working branch: `claude/private-chef-brand-website-c1fuw8`.
-- (Naming, colours, type, tech stack: recommendations logged, awaiting sign-off.)
+- **2026-07-18** — **Brand name locked: "Italy at Your Table."**
+- **2026-07-18** — **Pricing: bespoke — "enquire for a quote"** (no public prices).
+- **2026-07-18** — Proceeding on recommended defaults: build full static site for
+  review first (deploy after sign-off); tasteful placeholders + shot list; colour
+  palette & Fraunces/Inter typography as in §13.
 
 ## 6. Open questions (need the chef's input)
 
-1. **Brand name** — approve **A Tavola**, or pick another direction? (§4)
-2. **Chef's name / credited name** — how do you want to be named in the brand,
-   About page, and "by [Name]" line? (First name only? Full name?)
-3. **Pricing model** — per-person, per-event, or from-price? Any starting figures?
-   (Needed for Menus/Booking. Can launch with "from £X pp / enquire for a quote".)
-4. **Contact + booking** — preferred booking method (form → email? WhatsApp?
-   Calendly?), contact email, phone, service radius/areas of London.
-5. **Photography** — do you have real photos of your food / yourself, or should the
-   first site launch with tasteful placeholders + a shot list to fill later?
-6. **Website build** — approve a hand-crafted static site (recommended, §13) and
-   deploy to Netlify?
+*Resolved: brand name ✅, pricing ✅ (bespoke/enquire), build approach ✅ (build all
+pages, no deploy yet), photography ✅ (placeholders + shot list).*
+
+Still needed (marked as `[brackets]` in the built site until answered):
+
+1. **Chef's name / credited name** — for the About signature and "by [Name]" line
+   (first name, or full name?).
+2. **Personal story facts** — where in Italy you're from, how you came to London,
+   who taught you to cook. I will not invent these; About copy is written in your
+   voice with `[bracketed]` gaps for the true details.
+3. **Contact + booking** — contact email, whether to show WhatsApp/phone, and which
+   parts of London you serve.
+4. **Deploy** — when the site's approved, confirm Netlify deploy + any domain.
 
 ## 7. Website structure (planned)
 
@@ -197,6 +204,18 @@ enquire for a quote." See Open Question #3.
 **Image direction:** natural daylight, warm neutral edit, real food & hands,
 tablescapes, generous whitespace; no stocky/corporate imagery.
 
+**Photography shot list (to replace placeholders):** priority order —
+1. **Chef portrait** (hero + About) — you in a kitchen/at a table, warm light, relaxed.
+2. **A signature dish, plated** — e.g. pappardelle al ragù or truffle risotto (Home + Menus hero).
+3. **The aperitivo spread** — spritz + focaccia + olives + grissini on a board.
+4. **A set table / candlelit tablescape** — the "invited-in" feeling.
+5. **Hands at work** — rolling/cutting fresh pasta, plating.
+6. **Individual dish shots** for the gallery: burrata & tomatoes, tiramisù, sea bass,
+   lemon posset, seafood linguine, focaccia, a glass of Italian red.
+7. **A candid "evening" moment** — guests mid-dinner, warm and natural.
+Format: mostly portrait/square for Instagram reuse; a few 16:9/landscape for the web
+hero. Consistent warm edit so the grid and site feel like one brand.
+
 ## 14. SEO notes
 
 Target London intent: **Private Chef London · Italian Private Chef · Private Dining
@@ -206,34 +225,69 @@ fast mobile performance, alt text, London-focused copy.
 
 ## 15. Technical decisions
 
-- **Recommended stack:** hand-crafted static site (semantic HTML + modern CSS +
-  minimal JS), no template. Fast, SEO-friendly, fully controllable premium design.
-  Deploy via **Netlify**. (Astro considered; deferred to keep build simple.) ⏳ Await
-  sign-off.
+- **Stack (locked):** hand-crafted static site — semantic HTML + one CSS design
+  system (`css/styles.css`) + minimal vanilla JS (`js/main.js`). No template, no
+  build step. Fast, SEO-friendly, fully controllable premium design.
+- **Fonts:** Fraunces + Inter via Google Fonts (`<link>` with preconnect).
+- **Scroll-reveal** is progressive enhancement (gated behind a `.js` class) so
+  content is always visible without JS and to crawlers.
+- **Structured data:** `LocalBusiness` JSON-LD on Home; per-page titles, meta
+  descriptions, canonical links; `robots.txt` + `sitemap.xml` included.
+- **Deploy:** Netlify (drag-drop the folder or connect the repo) — pending sign-off.
+- **Preview locally:** `python3 -m http.server` in the repo root, open `index.html`.
 - **Repo:** `juliamalagoli/esperienza-culinaria-italiana`, branch
   `claude/private-chef-brand-website-c1fuw8`.
 
+### Files (v1)
+`index.html` · `about.html` · `experience.html` · `menus.html` · `gallery.html` ·
+`reviews.html` · `faq.html` · `contact.html` · `css/styles.css` · `js/main.js` ·
+`assets/favicon.svg` · `robots.txt` · `sitemap.xml`.
+
+### Placeholders to fill before launch (search the codebase for these)
+- `[your name]`, `[your region / town in Italy]`, `[who taught you…]`, `[in year…]`
+  — About page story.
+- `[your email]`, `[your number]`, `[@handle]` — Contact + footers.
+- `[Confirm your service areas]`, group size, lead time, drinks approach — FAQ/Contact.
+- Guest quotes on `reviews.html` (`[Guest name]…`).
+- `italyatyourtable.co.uk` is used as a placeholder domain in canonicals/sitemap —
+  swap for the real domain once chosen.
+- Wire the booking form to email (e.g. Netlify Forms or Formspree) before launch.
+
 ## 16. To-do
 
-- [ ] Lock brand name + chef's credited name.
-- [ ] Confirm pricing approach and contact/booking details.
-- [ ] Approve tech stack; scaffold site.
-- [ ] Build pages Home → Booking with final copy.
-- [ ] Gallery: real photos or placeholders + shot list.
-- [ ] Deploy to Netlify; wire domain.
-- [ ] Finalise Instagram handle + launch grid plan.
+- [ ] Chef's name + personal story facts → fill About page placeholders.
+- [ ] Contact/booking details (email, WhatsApp, service areas) → fill Contact/FAQ.
+- [ ] Provide real photography (see shot list §13) to replace placeholders.
+- [ ] Choose + register the real domain; update canonicals/sitemap.
+- [ ] Wire booking form to email (Netlify Forms / Formspree).
+- [ ] Deploy to Netlify.
+- [ ] Finalise Instagram handle + build the launch grid (9–12 posts).
+- [ ] Gather first real guest reviews to replace placeholder quotes.
 
 ## 17. Completed tasks
 
 - [x] Repository reviewed; branch confirmed.
-- [x] `PROJECT.md` created as single source of truth (vision, positioning, menus,
-      SEO, Instagram strategy, branding recommendations, open questions).
+- [x] `PROJECT.md` created as single source of truth.
+- [x] Brand name locked: **Italy at Your Table**.
+- [x] Pricing approach locked: bespoke — "enquire for a quote".
+- [x] Design system built (colour, Fraunces/Inter type, components) — `css/styles.css`.
+- [x] All 8 pages built with final launch copy: Home, About, The Experience, Menus,
+      Gallery, Reviews, FAQ, Contact/Booking.
+- [x] Mobile-first responsive nav + interactions (`js/main.js`).
+- [x] SEO scaffolding: titles, meta, canonicals, JSON-LD, `robots.txt`, `sitemap.xml`,
+      favicon.
+- [x] Browser-verified (desktop + mobile) via Playwright; fixed hero-render and
+      scroll-reveal bugs found in review.
 
 ## 18. Next steps (recommended)
 
-1. Approve the brand name (**A Tavola** recommended) and give me your credited name.
-2. Confirm pricing approach + booking/contact details.
-3. I scaffold and build the premium static site on the locked brand, then we review.
+1. **Review the site.** Skim the 8 pages (run locally, or I can deploy a preview).
+   Tell me what to adjust in tone, layout or emphasis.
+2. **Send me the personal details** to replace placeholders: your name, a few story
+   facts for About, contact email/WhatsApp, and the London areas you serve.
+3. **Photography** — capture the shot list (§13) when you can; I'll drop images in.
+4. Then: wire the booking form, pick a domain, and deploy to Netlify.
+5. In parallel, I can build the **Instagram launch grid** (9–12 posts + captions).
 
 ## 19. Version history
 
@@ -241,3 +295,9 @@ fast mobile performance, alt text, London-focused copy.
   brand-name analysis + recommendation (*A Tavola*), website structure, provided
   menus & aperitivo, Instagram strategy, colour/type/imagery recommendations, SEO
   and technical direction, open questions, and roadmap.
+- **v0.2 — 2026-07-18** — Brand name locked (**Italy at Your Table**); pricing set to
+  bespoke/"enquire for a quote"; build + photography decisions recorded.
+- **v1.0 — 2026-07-18** — **Website v1 built.** Full 8-page premium static site with
+  design system, responsive nav, SEO scaffolding, favicon, and browser verification
+  (two review bugs fixed). Added photography shot list, technical decisions, and the
+  placeholder checklist. Site is ready for review; not yet deployed.
