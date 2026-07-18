@@ -276,14 +276,13 @@ fast mobile performance, alt text, London-focused copy.
 - Note: booking is WhatsApp-only, so no form/email wiring is needed.
 
 ### Brand / social assets
-- `assets/social/aperitivo-card.png` — designed "Welcome Aperitivo" card (1080×1350,
-  brand colours + Fraunces/Inter) listing the aperitivo drinks & bites. For Instagram
-  / print; source in `assets/social/aperitivo-card.html`. (A designed graphic, not a
-  photo — real food photography still to come.)
+- *(The standalone aperitivo card was removed on request — the aperitivo now appears
+  as a "mini starters" opening course on every menu instead.)*
 - `assets/italy-at-your-table-menus.pdf` — printable **A4 menu PDF** (4 pages: cover
-  + aperitivo, then vegetarian / meat / fish). Linked as a "Download the Menu (PDF)"
-  button on the Menus page (hero + closing CTA). Source: `assets/social/menu-print.html`.
-  Regenerate by rendering that HTML to PDF (A4, print backgrounds).
+  with the logo mark + aperitivo, then vegetarian / meat / fish; each menu opens with
+  the aperitivo mini starters). Linked as "Download the Menu (PDF)" on the Menus page.
+  Source: `assets/social/menu-print.html`. Regenerate by rendering that HTML to PDF
+  (A4, print backgrounds).
 
 ## 16. To-do
 
