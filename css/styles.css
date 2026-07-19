@@ -191,11 +191,15 @@ p { max-width: 66ch; }
 .rounded { border-radius: var(--radius); }
 
 /* Real photography filling an image slot (same box as a .ph placeholder) */
-.media-photo { width: 100%; display: block; object-fit: cover; object-position: center 28%; }
+.media-photo { width: 100%; height: auto; aspect-ratio: 3 / 4; display: block; object-fit: cover; object-position: center 28%; }
+/* Fixed 6cm × 6cm square portrait (e.g. About page) */
+.portrait-6cm { width: 6cm; height: 6cm; max-width: 100%; display: block; object-fit: cover; object-position: center 22%; }
 
 /* ------------------------- Split / feature rows ------------------------ */
 .split { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 5vw, 5rem); align-items: center; }
 .split--reverse .split__media { order: 2; }
+/* Compact media column — a smaller portrait beside the text */
+.split--compact-media { grid-template-columns: minmax(0, 300px) 1fr; align-items: start; }
 .split__body h2 { margin-bottom: 1.25rem; }
 .split__body p + p { margin-top: 1.1rem; }
 .split__body .btn-row, .split__body .link-arrow { margin-top: 2rem; }

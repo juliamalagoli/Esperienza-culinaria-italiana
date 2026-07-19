@@ -175,30 +175,33 @@ Welcome aperitivo served while the chef finishes cooking.
 
 ## 10. Menus (9 sample menus — live on site + PDF)
 
-Each menu opens with **aperitivo mini starters**. Veg: *Parmesan crisps · bruschetta ·
-homemade focaccia · vegetarian omelette with cream cheese & courgettes.* Meat:
-*…grissini with Parma ham.* Fish: *…prawns in a Marie Rose sauce.* Welcome aperitivo
-drinks: Aperol Spritz · Pimm's Cup · Prosecco · Italian wine · alcohol-free spritz.
+Each menu opens with **aperitivo mini starters** (differ by menu type):
+- **Veg:** Parmesan crisps · homemade focaccia with cherry tomato · vegetarian omelette
+  with cream cheese & courgettes · olives.
+- **Meat:** Parmesan crisps · homemade focaccia with cherry tomato · ham & cheese
+  omelette · olives.
+- **Fish:** Parmesan crisps · homemade focaccia with cherry tomato · prawns in a Marie
+  Rose sauce · olives.
+Welcome aperitivo drinks: Aperol Spritz · Pimm's Cup · Prosecco · Italian wine · alcohol-free.
 
 **Veg 1 — Garden & Truffle:** Burrata, heritage tomatoes, pesto & sourdough · Wild
 mushroom & truffle risotto · Classic Tiramisù.
-**Veg 2 — Handmade & Herbaceous:** Aubergine rolls w/ ricotta · Spinach & ricotta
-ravioli, sage butter · Panna Cotta w/ berry coulis.
-**Veg 3 — Flavours of Puglia:** Burrata w/ roasted peaches, pistachios, basil oil &
-aged balsamic · Pumpkin & amaretti tortelli, browned butter, sage & Parmigiano ·
-Ricotta cheesecake w/ Amalfi lemon & honey.
-**Meat 1 — Ragù & Cioccolato:** Creamy polenta, wild mushroom & crispy speck ·
-Pappardelle w/ beef ragù · Chocolate Caprese cake.
-**Meat 2 — Roman Comfort:** Beef carpaccio · Chicken Saltimbocca, Parmesan mash ·
-Lemon Posset.
+**Veg 2 — Handmade & Herbaceous:** Grilled aubergine rolls w/ ricotta · Handmade spinach
+& ricotta ravioli, brown butter, crispy sage & aged Parmigiano flakes · Panna Cotta w/
+berry coulis.
+**Veg 3 — Flavours of Puglia:** Burrata w/ roasted peaches, pistachios, basil oil & aged
+balsamic · Parmigiana di melanzane baked in an individual cocotte · Ricotta cheesecake w/
+Amalfi lemon & honey.
+**Meat 1 — Ragù & Cioccolato:** Creamy polenta, wild mushroom & crispy speck · Pappardelle
+w/ beef ragù · Chocolate Caprese cake.
+**Meat 2 — Roman Comfort:** Beef carpaccio · Chicken Saltimbocca, Parmesan mash · Lemon Posset.
 **Meat 3 — Emilia-Romagna Tradition:** Parmigiano mousse w/ Modena balsamic, walnuts &
 focaccia · Beef tagliata w/ rosemary potatoes · Classic Zuppa Inglese.
-**Fish 1 — Mediterranean Table:** Smoked salmon, fennel, dill, capers & orange
-vinaigrette · Baked sea bass, Mediterranean veg · Lemon Tiramisù.
-**Fish 2 — Coastal & Bright:** Octopus carpaccio · Seafood linguine · Pistachio Panna
-Cotta.
-**Fish 3 — Taste of the Mediterranean:** Tuna tartare, avocado, citrus & crostini ·
-Saffron seafood risotto w/ prawns, mussels & clams · Orange & almond cake, mascarpone.
+**Fish 1 — Mediterranean Table:** Smoked salmon, fennel, dill, capers & orange vinaigrette ·
+Cod fillet al cartoccio w/ cherry tomato, Taggiasca olives, potatoes & herbs · Lemon Tiramisù.
+**Fish 2 — Coastal & Bright:** Octopus carpaccio · Seafood linguine · Pistachio Panna Cotta.
+**Fish 3 — Taste of the Mediterranean:** Tuna tartare, avocado, citrus & crostini · Saffron
+seafood risotto w/ prawns, mussels & clams · Orange & almond cake, mascarpone.
 
 > Framing on site: sample menus, seasonal, tailored to each client — not a fixed carte.
 
@@ -376,6 +379,11 @@ Recommended order:
   design system, responsive nav, SEO scaffolding, favicon, and browser verification
   (two review bugs fixed). Added photography shot list, technical decisions, and the
   placeholder checklist. Site is ready for review; not yet deployed.
+- **v1.4 — 2026-07-19** — Menu revisions: per-type aperitivo mini starters (veg / meat /
+  fish now each list focaccia w/ cherry tomato, their omelette or prawns, & olives); new
+  mains — Handmade & Herbaceous (ravioli, brown butter, sage & Parmigiano flakes),
+  Flavours of Puglia (parmigiana di melanzane in cocotte), Mediterranean Table (cod al
+  cartoccio). Site + PDF synced. About portrait resized to a fixed **6cm × 6cm** square.
 - **v1.3 — 2026-07-19** — **Added "Your Evening Begins Here" Dinner Planning
   Questionnaire** (`questionnaire.html`): full client-provided questionnaire, brand-
   styled, with a WhatsApp-compile submit; linked from footers, Contact, sitemap. Also
