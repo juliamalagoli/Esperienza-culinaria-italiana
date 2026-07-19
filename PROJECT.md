@@ -114,6 +114,12 @@ Earlier shortlist (A Tavola, Tavola, etc.) retained here for history only.
 - **2026-07-18** — **Working practice (standing):** update `PROJECT.md` for every
   change, and after each change offer layout/UX improvement suggestions for Julia to
   approve or decline.
+- **2026-07-19** — **New page: `questionnaire.html` ("Your Evening Begins Here" —
+  Dinner Planning Questionnaire).** Client-provided content, styled in brand (logo,
+  ivory/olive/terracotta/brass, Fraunces + Inter). Functional: on submit it compiles
+  all answers into a WhatsApp message to 07514 488722 (no backend/storage). Linked
+  from every footer ("Plan Your Evening"), the Contact page, and sitemap. Not added
+  to the top nav (kept lean) — can add on request.
 
 ## 6. Open questions (need the chef's input)
 
@@ -146,7 +152,10 @@ Contact / Booking.** Mobile-first. Strong CTAs throughout ("Reserve your evening
 - **Gallery** — food + tablescapes + candid evening moments.
 - **FAQ** — logistics, kitchens, dietary, group size, travel, pricing approach.
 - **Reviews** — testimonials (placeholder until real ones arrive).
-- **Contact / Booking** — enquiry form + direct contact + areas served.
+- **Contact / Booking** — WhatsApp booking + direct contact + areas served.
+- **Plan Your Evening** (`questionnaire.html`) — post-booking dinner planning
+  questionnaire; compiles answers into a WhatsApp message. Linked from footers &
+  Contact (not in top nav).
 
 ## 8. Copywriting
 
@@ -367,6 +376,12 @@ Recommended order:
   design system, responsive nav, SEO scaffolding, favicon, and browser verification
   (two review bugs fixed). Added photography shot list, technical decisions, and the
   placeholder checklist. Site is ready for review; not yet deployed.
+- **v1.3 — 2026-07-19** — **Added "Your Evening Begins Here" Dinner Planning
+  Questionnaire** (`questionnaire.html`): full client-provided questionnaire, brand-
+  styled, with a WhatsApp-compile submit; linked from footers, Contact, sitemap. Also
+  logged the GitHub Pages hosting setup (awaiting Julia's one-time Settings→Pages
+  enable). Menu edits (meat starters/main, fish aperitivo→prawns in Marie Rose,
+  smoked-salmon starter) shipped to site + PDF.
 - **v1.2 — 2026-07-18** — **Brand logo added.** Implemented the client's crossed
   fork & knife logo (Marcellus wordmark + Cormorant descriptor) as the header lockup
   and a reversed cream/gold version in the footer across all 8 pages; added
