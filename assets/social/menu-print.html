@@ -10,7 +10,6 @@
   @page { size:A4; margin:14mm; }
   *{ margin:0; padding:0; box-sizing:border-box; }
   body{ font-family:'Inter',sans-serif; color:var(--ink); -webkit-print-color-adjust:exact; print-color-adjust:exact; }
-
   .cover{ min-height:252mm; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; }
   .cover-mark{ width:74px; height:auto; margin:0 auto 20px; }
   .brandline{ font-size:11pt; font-weight:600; letter-spacing:.34em; text-transform:uppercase; color:var(--terracotta); }
@@ -23,12 +22,10 @@
   .aperitivo .lead{ font-family:'Fraunces',serif; font-size:14pt; line-height:1.6; }
   .price{ margin-top:22px; font-size:10.5pt; letter-spacing:.14em; text-transform:uppercase; color:var(--olive); }
   .contact{ margin-top:34px; font-size:10pt; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
-
   .category{ break-before:page; }
   .cat-head{ text-align:center; margin-bottom:6mm; }
   .cat-head .eyebrow{ font-size:11pt; font-weight:600; letter-spacing:.3em; text-transform:uppercase; color:var(--terracotta); }
   .cat-head h2{ font-family:'Fraunces',serif; font-weight:400; font-size:28pt; margin-top:6px; }
-
   .card{ break-inside:avoid; border:1px solid #e3d7bf; background:#faf5ea; border-radius:3px; padding:5.5mm 9mm; margin-bottom:5mm; }
   .card .tag{ font-size:9pt; font-weight:600; letter-spacing:.2em; text-transform:uppercase; color:var(--terracotta); }
   .card .name{ font-family:'Fraunces',serif; font-size:17pt; margin:4px 0 8px; }
@@ -36,14 +33,12 @@
   .course:first-of-type{ border-top:0; padding-top:0; }
   .course .lbl{ font-size:8pt; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); width:64px; flex-shrink:0; }
   .course .dish{ font-family:'Fraunces',serif; font-size:12.5pt; line-height:1.35; }
-
   .closing{ text-align:center; margin-top:7mm; }
   .closing .q{ font-family:'Fraunces',serif; font-style:italic; font-size:16pt; color:var(--terracotta); }
   .closing .c{ margin-top:14px; font-size:9.5pt; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); line-height:1.9; }
 </style>
 </head>
 <body>
-
   <section class="cover">
     <svg class="cover-mark" viewBox="0 0 120 90" fill="none" stroke="#a98b52" stroke-width="1.05" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><g transform="translate(60,46) scale(1.7)"><g transform="rotate(-22)"><path d="M0 -5 L0 24"/><path d="M-4.5 -24 L-4.5 -13 M-1.5 -25 L-1.5 -13 M1.5 -25 L1.5 -13 M4.5 -24 L4.5 -13"/><path d="M-4.5 -13 Q-4.5 -7 0 -5 Q4.5 -7 4.5 -13"/></g><g transform="rotate(22)"><path d="M0 24 L0 -2"/><path d="M0 -2 Q4.8 -12 3.6 -20 Q3.2 -23 0 -22 Z"/></g></g></svg>
     <div class="brandline">Italy at Your Table</div>
@@ -58,7 +53,6 @@
     <div class="price">Bespoke — enquire for a quote</div>
     <div class="contact">Bookings by WhatsApp · 07514&nbsp;488722 · Central &amp; North London</div>
   </section>
-
   <section class="category">
     <div class="cat-head"><div class="eyebrow">Vegetarian</div><h2>From the garden</h2></div>
         <div class="card">
@@ -86,14 +80,13 @@
           <div class="course"><span class="lbl">Dessert</span><span class="dish">Ricotta cheesecake with Amalfi lemon and honey</span></div>
         </div>
   </section>
-
   <section class="category">
     <div class="cat-head"><div class="eyebrow">Meat</div><h2>Slow-cooked &amp; classic</h2></div>
         <div class="card">
           <div class="tag">Meat · Menu One</div>
           <div class="name">Ragù &amp; Cioccolato</div>
           <div class="course"><span class="lbl">Aperitivo</span><span class="dish">Parmesan crisps · bruschetta · homemade focaccia · grissini with Parma ham</span></div>
-          <div class="course"><span class="lbl">Starter</span><span class="dish">Beef carpaccio</span></div>
+          <div class="course"><span class="lbl">Starter</span><span class="dish">Creamy polenta with wild mushroom and crispy speck</span></div>
           <div class="course"><span class="lbl">Main</span><span class="dish">Fresh pappardelle with slow-cooked beef ragù</span></div>
           <div class="course"><span class="lbl">Dessert</span><span class="dish">Chocolate Caprese cake</span></div>
         </div>
@@ -101,7 +94,7 @@
           <div class="tag">Meat · Menu Two</div>
           <div class="name">Roman Comfort</div>
           <div class="course"><span class="lbl">Aperitivo</span><span class="dish">Parmesan crisps · bruschetta · homemade focaccia · grissini with Parma ham</span></div>
-          <div class="course"><span class="lbl">Starter</span><span class="dish">Prosciutto di Parma &amp; buffalo mozzarella</span></div>
+          <div class="course"><span class="lbl">Starter</span><span class="dish">Beef carpaccio</span></div>
           <div class="course"><span class="lbl">Main</span><span class="dish">Chicken Saltimbocca with Parmesan mashed potatoes</span></div>
           <div class="course"><span class="lbl">Dessert</span><span class="dish">Lemon Posset</span></div>
         </div>
@@ -110,25 +103,24 @@
           <div class="name">Emilia-Romagna Tradition</div>
           <div class="course"><span class="lbl">Aperitivo</span><span class="dish">Parmesan crisps · bruschetta · homemade focaccia · grissini with Parma ham</span></div>
           <div class="course"><span class="lbl">Starter</span><span class="dish">Parmigiano Reggiano mousse with Traditional Balsamic Vinegar of Modena, toasted walnuts and homemade focaccia</span></div>
-          <div class="course"><span class="lbl">Main</span><span class="dish">Slow-braised beef cheek in Sangiovese wine with creamy Parmesan polenta and roasted seasonal vegetables</span></div>
+          <div class="course"><span class="lbl">Main</span><span class="dish">Beef tagliata with rosemary potatoes</span></div>
           <div class="course"><span class="lbl">Dessert</span><span class="dish">Classic Zuppa Inglese</span></div>
         </div>
   </section>
-
   <section class="category">
     <div class="cat-head"><div class="eyebrow">Fish</div><h2>From the coast</h2></div>
         <div class="card">
           <div class="tag">Fish · Menu One</div>
           <div class="name">Mediterranean Table</div>
-          <div class="course"><span class="lbl">Aperitivo</span><span class="dish">Parmesan crisps · bruschetta · homemade focaccia · grissini with Parma ham</span></div>
-          <div class="course"><span class="lbl">Starter</span><span class="dish">Seared scallops with pea purée</span></div>
+          <div class="course"><span class="lbl">Aperitivo</span><span class="dish">Parmesan crisps · bruschetta · homemade focaccia · prawns in a Marie Rose sauce</span></div>
+          <div class="course"><span class="lbl">Starter</span><span class="dish">Smoked salmon, fennel, dill, capers and orange vinaigrette</span></div>
           <div class="course"><span class="lbl">Main</span><span class="dish">Baked sea bass with Mediterranean vegetables</span></div>
           <div class="course"><span class="lbl">Dessert</span><span class="dish">Lemon Tiramisù</span></div>
         </div>
         <div class="card">
           <div class="tag">Fish · Menu Two</div>
           <div class="name">Coastal &amp; Bright</div>
-          <div class="course"><span class="lbl">Aperitivo</span><span class="dish">Parmesan crisps · bruschetta · homemade focaccia · grissini with Parma ham</span></div>
+          <div class="course"><span class="lbl">Aperitivo</span><span class="dish">Parmesan crisps · bruschetta · homemade focaccia · prawns in a Marie Rose sauce</span></div>
           <div class="course"><span class="lbl">Starter</span><span class="dish">Octopus carpaccio</span></div>
           <div class="course"><span class="lbl">Main</span><span class="dish">Homemade seafood linguine</span></div>
           <div class="course"><span class="lbl">Dessert</span><span class="dish">Pistachio Panna Cotta</span></div>
@@ -136,7 +128,7 @@
         <div class="card">
           <div class="tag">Fish · Menu Three</div>
           <div class="name">Taste of the Mediterranean</div>
-          <div class="course"><span class="lbl">Aperitivo</span><span class="dish">Parmesan crisps · bruschetta · homemade focaccia · grissini with Parma ham</span></div>
+          <div class="course"><span class="lbl">Aperitivo</span><span class="dish">Parmesan crisps · bruschetta · homemade focaccia · prawns in a Marie Rose sauce</span></div>
           <div class="course"><span class="lbl">Starter</span><span class="dish">Tuna tartare with avocado, citrus dressing, pink peppercorn and crispy crostini</span></div>
           <div class="course"><span class="lbl">Main</span><span class="dish">Saffron seafood risotto with king prawns, mussels, clams and parsley oil</span></div>
           <div class="course"><span class="lbl">Dessert</span><span class="dish">Orange and almond cake with mascarpone cream</span></div>
@@ -146,6 +138,5 @@
       <div class="c">Vegetarian · Meat · Fish — or a mix<br/>To reserve your evening, message Julia on WhatsApp · 07514&nbsp;488722</div>
     </div>
   </section>
-
 </body>
 </html>

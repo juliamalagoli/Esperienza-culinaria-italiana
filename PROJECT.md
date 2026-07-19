@@ -154,11 +154,10 @@ Welcome aperitivo served while the chef finishes cooking.
 
 ## 10. Menus (9 sample menus — live on site + PDF)
 
-Each menu opens with the **aperitivo mini starters**. Veg menus:
-*Parmesan crisps · bruschetta · homemade focaccia · vegetarian omelette with cream
-cheese & courgettes.* Meat & fish menus end the aperitivo with *grissini with Parma
-ham.* Welcome aperitivo drinks: Aperol Spritz · Pimm's Cup · Prosecco · Italian wine ·
-alcohol-free spritz.
+Each menu opens with **aperitivo mini starters**. Veg: *Parmesan crisps · bruschetta ·
+homemade focaccia · vegetarian omelette with cream cheese & courgettes.* Meat:
+*…grissini with Parma ham.* Fish: *…prawns in a Marie Rose sauce.* Welcome aperitivo
+drinks: Aperol Spritz · Pimm's Cup · Prosecco · Italian wine · alcohol-free spritz.
 
 **Veg 1 — Garden & Truffle:** Burrata, heritage tomatoes, pesto & sourdough · Wild
 mushroom & truffle risotto · Classic Tiramisù.
@@ -167,15 +166,14 @@ ravioli, sage butter · Panna Cotta w/ berry coulis.
 **Veg 3 — Flavours of Puglia:** Burrata w/ roasted peaches, pistachios, basil oil &
 aged balsamic · Pumpkin & amaretti tortelli, browned butter, sage & Parmigiano ·
 Ricotta cheesecake w/ Amalfi lemon & honey.
-**Meat 1 — Ragù & Cioccolato:** Beef carpaccio · Pappardelle w/ beef ragù · Chocolate
-Caprese cake.
-**Meat 2 — Roman Comfort:** Prosciutto di Parma & buffalo mozzarella · Chicken
-Saltimbocca, Parmesan mash · Lemon Posset.
-**Meat 3 — Emilia-Romagna Tradition:** Parmigiano mousse w/ Traditional Balsamic of
-Modena, walnuts & focaccia · Slow-braised beef cheek in Sangiovese, Parmesan polenta &
-roasted veg · Classic Zuppa Inglese.
-**Fish 1 — Mediterranean Table:** Seared scallops, pea purée · Baked sea bass,
-Mediterranean veg · Lemon Tiramisù.
+**Meat 1 — Ragù & Cioccolato:** Creamy polenta, wild mushroom & crispy speck ·
+Pappardelle w/ beef ragù · Chocolate Caprese cake.
+**Meat 2 — Roman Comfort:** Beef carpaccio · Chicken Saltimbocca, Parmesan mash ·
+Lemon Posset.
+**Meat 3 — Emilia-Romagna Tradition:** Parmigiano mousse w/ Modena balsamic, walnuts &
+focaccia · Beef tagliata w/ rosemary potatoes · Classic Zuppa Inglese.
+**Fish 1 — Mediterranean Table:** Smoked salmon, fennel, dill, capers & orange
+vinaigrette · Baked sea bass, Mediterranean veg · Lemon Tiramisù.
 **Fish 2 — Coastal & Bright:** Octopus carpaccio · Seafood linguine · Pistachio Panna
 Cotta.
 **Fish 3 — Taste of the Mediterranean:** Tuna tartare, avocado, citrus & crostini ·
