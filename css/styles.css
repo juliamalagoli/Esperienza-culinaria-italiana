@@ -289,6 +289,25 @@ p { max-width: 66ch; }
 .q-submit { text-align: center; padding-top: 1rem; }
 .q-submit .form-note { margin-top: 1rem; }
 
+/* ----------------------- Floating WhatsApp button ---------------------- */
+.wa-float {
+  position: fixed; right: clamp(1rem, 3vw, 2rem); bottom: clamp(1rem, 3vw, 2rem);
+  z-index: 200; width: 58px; height: 58px; border-radius: 50%;
+  background: #25d366; color: #fff; display: inline-flex; align-items: center; justify-content: center;
+  box-shadow: 0 12px 30px -8px rgba(34, 31, 27, 0.5); transition: transform 0.35s var(--ease), box-shadow 0.35s;
+}
+.wa-float:hover { transform: translateY(-3px) scale(1.04); box-shadow: 0 16px 36px -8px rgba(34, 31, 27, 0.55); }
+.wa-float svg { width: 30px; height: 30px; }
+.wa-float::after {
+  content: "Message me"; position: absolute; right: calc(100% + 12px); white-space: nowrap;
+  background: var(--ink); color: var(--ivory); font-family: var(--sans); font-size: 0.8rem; font-weight: 500;
+  padding: 0.5rem 0.85rem; border-radius: 100px; box-shadow: var(--shadow);
+  opacity: 0; transform: translateX(6px); transition: opacity 0.3s, transform 0.3s; pointer-events: none;
+}
+.wa-float:hover::after, .wa-float:focus-visible::after { opacity: 1; transform: none; }
+.wa-float:focus-visible { outline: 3px solid rgba(37,211,102,0.4); outline-offset: 3px; }
+@media (max-width: 600px) { .wa-float::after { display: none; } .wa-float { width: 54px; height: 54px; } }
+
 /* --------------------------- CTA banner -------------------------------- */
 .cta-banner { text-align: center; }
 .cta-banner h2 { max-width: 18ch; margin-inline: auto; }

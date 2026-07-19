@@ -379,6 +379,10 @@ Recommended order:
   design system, responsive nav, SEO scaffolding, favicon, and browser verification
   (two review bugs fixed). Added photography shot list, technical decisions, and the
   placeholder checklist. Site is ready for review; not yet deployed.
+- **v1.5 — 2026-07-19** — Added a **floating WhatsApp button** on every page (injected
+  via `js/main.js`; styled in `css/styles.css`): fixed bottom-right, WhatsApp-green
+  circle with the glyph and a "Message me" hover label, links to wa.me/447514488722
+  with a pre-filled booking message. (UX suggestion #1, approved by Julia.)
 - **v1.4 — 2026-07-19** — Menu revisions: per-type aperitivo mini starters (veg / meat /
   fish now each list focaccia w/ cherry tomato, their omelette or prawns, & olives); new
   mains — Handmade & Herbaceous (ravioli, brown butter, sage & Parmigiano flakes),
