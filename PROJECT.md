@@ -156,6 +156,13 @@ Contact / Booking.** Mobile-first. Strong CTAs throughout ("Reserve your evening
 - **Plan Your Evening** (`questionnaire.html`) — post-booking dinner planning
   questionnaire; compiles answers into a WhatsApp message. Linked from footers &
   Contact (not in top nav).
+- **Occasions** (`occasions.html` hub + `anniversary.html`, `birthday.html`,
+  `proposal.html`, `dinner-party.html`) — SEO landing pages targeting intent like
+  "private chef for anniversary/birthday London" and "dinner party chef London".
+  Each: tailored hero + intro + how-it-works + testimonial + WhatsApp CTA. Linked
+  from the Home occasions cards, the Occasions hub, and footers (Explore column).
+- **Gift Vouchers** (`gift.html`) — give a dinner as a gift; WhatsApp-arranged.
+  Linked from footers (Book column).
 
 ## 8. Copywriting
 
@@ -379,6 +386,13 @@ Recommended order:
   design system, responsive nav, SEO scaffolding, favicon, and browser verification
   (two review bugs fixed). Added photography shot list, technical decisions, and the
   placeholder checklist. Site is ready for review; not yet deployed.
+- **v1.6 — 2026-07-19** — **Occasion landing pages + Gift Vouchers** (built while
+  awaiting photos). New: `occasions.html` (hub), `anniversary.html`, `birthday.html`,
+  `proposal.html`, `dinner-party.html`, `gift.html` — each brand-styled, SEO-tuned
+  (unique title/meta/canonical/OG), with WhatsApp CTAs. Home occasion cards now link
+  to these pages (+ "Explore all occasions"); footers normalised site-wide to add
+  Occasions (Explore) and Gift Vouchers (Book); sitemap updated. All 15 pages
+  validated.
 - **v1.5 — 2026-07-19** — Added a **floating WhatsApp button** on every page (injected
   via `js/main.js`; styled in `css/styles.css`): fixed bottom-right, WhatsApp-green
   circle with the glyph and a "Message me" hover label, links to wa.me/447514488722
