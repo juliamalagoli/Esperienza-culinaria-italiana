@@ -102,6 +102,15 @@ Earlier shortlist (A Tavola, Tavola, etc.) retained here for history only.
 - **2026-07-18** — **Instagram:** handle not yet created.
 - **2026-07-18** — **About page copy provided by Julia** ("Bringing the heart of
   Italy to your table") and used verbatim with light typographic polish.
+- **2026-07-18** — **Hosting decision: GitHub Pages** (not Netlify for now). Site
+  goes live & public from GitHub via an Actions workflow
+  (`.github/workflows/deploy-pages.yml`) that auto-deploys on every push. Julia can
+  edit any file directly on GitHub and changes go live automatically. Netlify to be
+  used later, only when Julia says so.
+  Live URL: **https://juliamalagoli.github.io/Esperienza-culinaria-italiana/**
+- **2026-07-18** — **Working practice (standing):** update `PROJECT.md` for every
+  change, and after each change offer layout/UX improvement suggestions for Julia to
+  approve or decline.
 
 ## 6. Open questions (need the chef's input)
 
@@ -268,7 +277,12 @@ fast mobile performance, alt text, London-focused copy.
   content is always visible without JS and to crawlers.
 - **Structured data:** `LocalBusiness` JSON-LD on Home; per-page titles, meta
   descriptions, canonical links; `robots.txt` + `sitemap.xml` included.
-- **Deploy:** Netlify (drag-drop the folder or connect the repo) — pending sign-off.
+- **Hosting: GitHub Pages (live).** Auto-deploys from the site branch via
+  `.github/workflows/deploy-pages.yml` on every push. Live at
+  **https://juliamalagoli.github.io/Esperienza-culinaria-italiana/**. Edit any file on
+  GitHub → it republishes automatically. (Relative links throughout, so the site works
+  under the `/Esperienza-culinaria-italiana/` subpath.)
+- **Netlify:** deferred — to be used later only when Julia asks.
 - **Preview locally:** `python3 -m http.server` in the repo root, open `index.html`.
 - **Repo:** `juliamalagoli/esperienza-culinaria-italiana`, branch
   `claude/private-chef-brand-website-c1fuw8`.
