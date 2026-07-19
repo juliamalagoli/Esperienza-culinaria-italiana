@@ -90,6 +90,10 @@ Earlier shortlist (A Tavola, Tavola, etc.) retained here for history only.
   truth. Working branch: `claude/private-chef-brand-website-c1fuw8`.
 - **2026-07-18** — **Brand name locked: "Italy at Your Table."**
 - **2026-07-18** — **Pricing: bespoke — "enquire for a quote"** (no public prices).
+- **2026-07-19** — **Pricing updated: "From £85 per person"** (accessible-quality tier),
+  chosen by Julia over £95 / £120 / hidden. A visible "from" anchor now shows on Menus
+  (new §Investment block), Contact and FAQ, with add-ons and inclusions. Still quoted
+  bespoke per booking. See §11 for full model + growth path (→ £95pp when reviews/photos land).
 - **2026-07-18** — Proceeding on recommended defaults: build full static site for
   review first (deploy after sign-off); tasteful placeholders + shot list; colour
   palette & Fraunces/Inter typography as in §13.
@@ -214,8 +218,28 @@ seafood risotto w/ prawns, mussels & clams · Orange & almond cake, mascarpone.
 
 ## 11. Pricing
 
-⏳ Not defined. Launch approach recommended: "from £X per person" or "bespoke —
-enquire for a quote." See Open Question #3.
+✅ **Locked 2026-07-19 — "From £85 per person" (accessible-quality tier).**
+
+Positioning chosen: accessible-quality — anchor a visible "from" price to fill the
+calendar and gather reviews at launch, then raise from a position of strength once
+photos + testimonials are in place.
+
+**Public model (shown on Menus → §Investment, Contact, FAQ):**
+- **From £85 per person** — four-course menu, ingredients, cooking, service & clean-up included.
+- **Minimum 2 guests** (intimate dinner for two worth the evening).
+- **Travel included** across central & north London.
+- **Deposit** secures the date; balance after the dinner.
+- Every menu tailored to allergies / dietary needs.
+- **Add-ons:** extra course +£15pp · aperitivo & canapés on arrival +£12pp · wine-pairing
+  guidance · celebration cake.
+- Still quoted bespoke per booking — the "from £85pp" is an anchor, not a fixed list.
+
+**Rationale:** a visible "from" price filters bargain-hunters, signals quality, and lifts
+enquiry rate vs. pure "enquire only" (visitors won't message with zero price signal).
+Market context (London 2026): entry £55–75pp · mid/quality £85–120pp · premium £130–200+pp.
+
+**Internal note / room to grow:** £95pp (quality-niche) and £120pp (premium) were the
+alternative tiers. Natural next step is £95pp once reviews + real photography are live.
 
 ## 12. Instagram strategy
 
@@ -375,6 +399,12 @@ Recommended order:
 5. Add **real reviews** as your first dinners happen.
 
 ## 19. Version history
+
+- **v1.7 — 2026-07-19** — **Pricing published: "From £85 per person"** (accessible-quality
+  tier). Added an **Investment** section to `menus.html` (three cards: the dinner /
+  good-to-know / add-ons, with `.price-list` styling), a "from £85pp — see what's
+  included" anchor on `contact.html`, an updated pricing answer in `faq.html`, and the
+  "from £85pp" line in the Menus CTA banner. PROJECT.md §11 + decisions log updated.
 
 - **v0.1 — 2026-07-18** — Initial `PROJECT.md`. Captured vision, goals, positioning,
   brand-name analysis + recommendation (*A Tavola*), website structure, provided
