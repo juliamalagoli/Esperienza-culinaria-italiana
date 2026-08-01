@@ -90,8 +90,9 @@ Earlier shortlist (A Tavola, Tavola, etc.) retained here for history only.
   truth. Working branch: `claude/private-chef-brand-website-c1fuw8`.
 - **2026-07-18** — **Brand name locked: "Italy at Your Table."**
 - **2026-07-18** — **Pricing: bespoke — "enquire for a quote"** (no public prices).
-- **2026-07-19** — Removed the "Meat · Menu One/Two/Three" tag labels from the meat menu
-  cards on `menus.html` (kept the dish titles). Veg & Fish tags left in place.
+- **2026-07-19** — Removed the per-card "· Menu One/Two/Three" tag labels from **all**
+  menu cards on `menus.html` (Vegetarian, Meat & Fish). Dish titles kept; the section
+  headers (Vegetarian / Meat / Fish) still label each group.
 - **2026-07-19** — **Pricing updated: "From £85 per person"** (accessible-quality tier),
   chosen by Julia over £95 / £120 / hidden. A visible "from" anchor now shows on Menus
   (new §Investment block), Contact and FAQ, with add-ons and inclusions. Still quoted
