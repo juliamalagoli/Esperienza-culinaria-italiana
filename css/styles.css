@@ -204,6 +204,11 @@ p { max-width: 66ch; }
 
 /* Real photography filling an image slot (same box as a .ph placeholder) */
 .media-photo { width: 100%; height: auto; aspect-ratio: 3 / 4; display: block; object-fit: cover; object-position: center 28%; }
+/* Photo that fills a ratio/grid slot exactly (same box as a .ph placeholder) */
+.photo-slot { position: relative; overflow: hidden; border-radius: var(--radius); background: var(--olive-deep); box-shadow: inset 0 0 0 1px rgba(176,141,87,0.30); }
+.photo-slot img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+/* Full-bleed hero photograph */
+.hero__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
 /* Fixed 6cm × 6cm square portrait (e.g. About page) */
 .portrait-6cm { width: 6cm; height: 6cm; max-width: 100%; display: block; object-fit: cover; object-position: center 22%; }
 
