@@ -90,6 +90,12 @@ Earlier shortlist (A Tavola, Tavola, etc.) retained here for history only.
   truth. Working branch: `claude/private-chef-brand-website-c1fuw8`.
 - **2026-07-18** — **Brand name locked: "Italy at Your Table."**
 - **2026-07-18** — **Pricing: bespoke — "enquire for a quote"** (no public prices).
+- **2026-07-19** — **Menu "completion" additions:** (1) added a closing **"To finish —
+  Espresso & homemade limoncello"** course to all 9 menus (site + PDF), completing the
+  Italian arc aperitivo → dinner → caffè; (2) added a **"vegan & gluten-free versions
+  available on request"** note (menus.html aperitivo section + PDF closing). PDF also
+  synced: tags removed, price now "From £85 per person"; regenerated to 4 pages, layout
+  tightened so it stays 4 pages with the extra course.
 - **2026-07-19** — Removed the per-card "· Menu One/Two/Three" tag labels from **all**
   menu cards on `menus.html` (Vegetarian, Meat & Fish). Dish titles kept; the section
   headers (Vegetarian / Meat / Fish) still label each group.
