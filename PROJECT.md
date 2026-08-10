@@ -90,6 +90,12 @@ Earlier shortlist (A Tavola, Tavola, etc.) retained here for history only.
   truth. Working branch: `claude/private-chef-brand-website-c1fuw8`.
 - **2026-07-18** — **Brand name locked: "Italy at Your Table."**
 - **2026-07-18** — **Pricing: bespoke — "enquire for a quote"** (no public prices).
+- **2026-07-19** — **Upgraded image placeholders** to brand-styled editorial tiles:
+  removed the emoji marks; each `.ph` now shows the fork-&-knife **logo mark** (inline
+  SVG data-URI, cream), a subtle **brass inset frame** and a brass hairline above the
+  caption. Reads as an intentional placeholder, not a "missing image." Stopgap until
+  Julia uploads real free-licence photos (Unsplash/Pexels — this env can't download them,
+  so she uploads and I place them). Shot list given (home hero + 6–10 gallery/atmosphere).
 - **2026-07-19** — **Menu "completion" additions:** (1) added a closing **"To finish —
   Espresso & homemade limoncello"** course to all 9 menus (site + PDF), completing the
   Italian arc aperitivo → dinner → caffè; (2) added a **"vegan & gluten-free versions

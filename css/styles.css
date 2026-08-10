@@ -175,12 +175,24 @@ p { max-width: 66ch; }
   background-image: radial-gradient(rgba(251,246,238,0.10) 1px, transparent 1.4px);
   background-size: 22px 22px; opacity: 0.5;
 }
+.ph { box-shadow: inset 0 0 0 1px rgba(176,141,87,0.30); }
 .ph__label {
   position: absolute; inset: 0; display: flex; flex-direction: column;
-  align-items: center; justify-content: center; text-align: center; gap: 0.5rem; padding: 1.5rem;
+  align-items: center; justify-content: center; text-align: center; gap: 0.9rem; padding: 1.5rem;
 }
-.ph__label .mark { font-family: var(--serif); font-size: 2.4rem; opacity: 0.85; }
-.ph__label .cap { font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; opacity: 0.72; max-width: 22ch; }
+.ph__label .mark {
+  width: 58px; height: 44px; font-size: 0;
+  background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%20120%2090%27%20fill%3D%27none%27%20stroke%3D%27%23fbf6ee%27%20stroke-width%3D%271.05%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%3E%3Cg%20transform%3D%27translate%2860%2C46%29%20scale%281.7%29%27%3E%3Cg%20transform%3D%27rotate%28-22%29%27%3E%3Cpath%20d%3D%27M0%20-5%20L0%2024%27%2F%3E%3Cpath%20d%3D%27M-4.5%20-24%20L-4.5%20-13%20M-1.5%20-25%20L-1.5%20-13%20M1.5%20-25%20L1.5%20-13%20M4.5%20-24%20L4.5%20-13%27%2F%3E%3Cpath%20d%3D%27M-4.5%20-13%20Q-4.5%20-7%200%20-5%20Q4.5%20-7%204.5%20-13%27%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%27rotate%2822%29%27%3E%3Cpath%20d%3D%27M0%2024%20L0%20-2%27%2F%3E%3Cpath%20d%3D%27M0%20-2%20Q4.8%20-12%203.6%20-20%20Q3.2%20-23%200%20-22%20Z%27%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E") center/contain no-repeat;
+  opacity: 0.92;
+}
+.ph__label .cap {
+  position: relative; font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase;
+  opacity: 0.82; max-width: 24ch; padding-top: 0.9rem;
+}
+.ph__label .cap::before {
+  content: ""; position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+  width: 26px; height: 1px; background: var(--brass); opacity: 0.8;
+}
 .ph--terra { background:
     radial-gradient(120% 120% at 80% 10%, rgba(255,222,196,0.35), transparent 55%),
     linear-gradient(135deg, var(--terracotta) 0%, var(--terracotta-deep) 60%, #7d3a1e 100%); }
