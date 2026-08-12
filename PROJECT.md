@@ -90,6 +90,11 @@ Earlier shortlist (A Tavola, Tavola, etc.) retained here for history only.
   truth. Working branch: `claude/private-chef-brand-website-c1fuw8`.
 - **2026-07-18** — **Brand name locked: "Italy at Your Table."**
 - **2026-07-18** — **Pricing: bespoke — "enquire for a quote"** (no public prices).
+- **2026-07-19** — **8 real photos now in the Gallery** (added seafood spaghetti, market
+  ingredients, garden vegetables, focaccia to the earlier four); 3 branded logo tiles remain
+  ("The chef at work" reserved for Julia). **Roman Comfort** dessert changed from the
+  (British) Lemon Posset to **Torta della nonna with toasted pine nuts** — more authentic,
+  on-brand (nonna). Site + PDF (still 4 pages) + gallery placeholder caption updated.
 - **2026-07-19** — **First real photos placed** (4 uploaded by Julia, no watermark):
   `tiramisu.jpg`, `fresh-pasta.jpg` (hand-made tagliatelle), `table-set.jpg`, `aperitivo.jpg`
   (prosecco pour). Placed via new `.photo-slot` (fills a ratio/grid slot) + `.hero__img`:
@@ -227,7 +232,7 @@ balsamic · Parmigiana di melanzane baked in an individual cocotte · Ricotta ch
 Amalfi lemon & honey.
 **Meat 1 — Ragù & Cioccolato:** Creamy polenta, wild mushroom & crispy speck · Pappardelle
 w/ beef ragù · Chocolate Caprese cake.
-**Meat 2 — Roman Comfort:** Beef carpaccio · Chicken Saltimbocca, Parmesan mash · Lemon Posset.
+**Meat 2 — Roman Comfort:** Beef carpaccio · Chicken Saltimbocca, Parmesan mash · Torta della nonna with toasted pine nuts.
 **Meat 3 — Emilia-Romagna Tradition:** Parmigiano mousse w/ Modena balsamic, walnuts &
 focaccia · Beef tagliata w/ rosemary potatoes · Classic Zuppa Inglese.
 **Fish 1 — Mediterranean Table:** Smoked salmon, fennel, dill, capers & orange vinaigrette ·
