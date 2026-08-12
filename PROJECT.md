@@ -90,6 +90,13 @@ Earlier shortlist (A Tavola, Tavola, etc.) retained here for history only.
   truth. Working branch: `claude/private-chef-brand-website-c1fuw8`.
 - **2026-07-18** — **Brand name locked: "Italy at Your Table."**
 - **2026-07-18** — **Pricing: bespoke — "enquire for a quote"** (no public prices).
+- **2026-07-19** — **Real photography now across the site.** Julia uploaded her own /
+  free-licence photos; placed & colour-matched: home hero (table), menu teaser
+  (pappardelle al ragù, colour-graded), Gallery now 11 real photos (veg basket, fresh
+  pasta, aperitivo, tiramisù, ingredients, table, ragù, seafood, chef-at-work, red wine,
+  focaccia) + 1 remaining tile (Torta della nonna), Experience aperitivo, Contact aside.
+  **About** page: added the authentic "chef making pasta by hand" photo beside the
+  pasta-making narrative (kept per Julia). Only outstanding image: a Torta della nonna shot.
 - **2026-07-19** — **Menu copy polish:** enriched the sparse dish descriptions to match the
   premium level of the rest (site + PDF). Beef carpaccio → "…with rocket, Parmigiano
   shavings, lemon & EVOO"; Octopus carpaccio → "…with lemon, parsley & EVOO"; Seafood
