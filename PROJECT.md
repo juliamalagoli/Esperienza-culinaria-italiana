@@ -90,6 +90,12 @@ Earlier shortlist (A Tavola, Tavola, etc.) retained here for history only.
   truth. Working branch: `claude/private-chef-brand-website-c1fuw8`.
 - **2026-07-18** — **Brand name locked: "Italy at Your Table."**
 - **2026-07-18** — **Pricing: bespoke — "enquire for a quote"** (no public prices).
+- **2026-07-19** — **Menu copy polish:** enriched the sparse dish descriptions to match the
+  premium level of the rest (site + PDF). Beef carpaccio → "…with rocket, Parmigiano
+  shavings, lemon & EVOO"; Octopus carpaccio → "…with lemon, parsley & EVOO"; Seafood
+  linguine → "…with clams, mussels & prawns in white wine"; plus Carnaroli risotto, chicken
+  saltimbocca (prosciutto & sage), flourless Caprese, sliced tagliata w/ rocket & Parmigiano.
+  Used classic preparations — Julia to correct any that differ from her actual recipes.
 - **2026-07-19** — **8 real photos now in the Gallery** (added seafood spaghetti, market
   ingredients, garden vegetables, focaccia to the earlier four); 3 branded logo tiles remain
   ("The chef at work" reserved for Julia). **Roman Comfort** dessert changed from the
