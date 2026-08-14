@@ -90,6 +90,11 @@ Earlier shortlist (A Tavola, Tavola, etc.) retained here for history only.
   truth. Working branch: `claude/private-chef-brand-website-c1fuw8`.
 - **2026-07-18** — **Brand name locked: "Italy at Your Table."**
 - **2026-07-18** — **Pricing: bespoke — "enquire for a quote"** (no public prices).
+- **2026-07-19** — **Reviews handled honestly (zero real reviews yet).** Removed **Reviews
+  from the top nav** on all pages (footer link kept → invite page). `reviews.html` rebuilt as
+  an honest **"Be among the first at my table"** invitation (no fabricated testimonials — UK
+  fake-review law). Home placeholder guest quote replaced with Julia's own brand promise.
+  Re-add Reviews to nav once real, consented guest quotes exist.
 - **2026-07-19** — **Real photography now across the site.** Julia uploaded her own /
   free-licence photos; placed & colour-matched: home hero (table), menu teaser
   (pappardelle al ragù, colour-graded), Gallery now 11 real photos (veg basket, fresh
