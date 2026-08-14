@@ -236,7 +236,7 @@ Each menu opens with **aperitivo mini starters** (differ by menu type):
 Welcome aperitivo drinks: Aperol Spritz · Pimm's Cup · Prosecco · Italian wine · alcohol-free.
 
 **Veg 1 — Garden & Truffle:** Burrata, heritage tomatoes, pesto & sourdough · Wild
-mushroom & truffle risotto · Classic Tiramisù.
+mushroom & truffle risotto w/ Parmesan crisp · Classic Tiramisù.
 **Veg 2 — Handmade & Herbaceous:** Courgette carpaccio w/ lemon, Parmigiano, mint & EVOO · Handmade spinach
 & ricotta ravioli, brown butter, crispy sage & aged Parmigiano flakes · Panna Cotta w/
 berry coulis.
