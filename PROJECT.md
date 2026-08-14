@@ -237,7 +237,7 @@ Welcome aperitivo drinks: Aperol Spritz · Pimm's Cup · Prosecco · Italian win
 
 **Veg 1 — Garden & Truffle:** Burrata, heritage tomatoes, pesto & sourdough · Wild
 mushroom & truffle risotto · Classic Tiramisù.
-**Veg 2 — Handmade & Herbaceous:** Grilled aubergine rolls w/ ricotta · Handmade spinach
+**Veg 2 — Handmade & Herbaceous:** Courgette carpaccio w/ lemon, Parmigiano, mint & EVOO · Handmade spinach
 & ricotta ravioli, brown butter, crispy sage & aged Parmigiano flakes · Panna Cotta w/
 berry coulis.
 **Veg 3 — Flavours of Puglia:** Burrata w/ roasted peaches, pistachios, basil oil & aged
