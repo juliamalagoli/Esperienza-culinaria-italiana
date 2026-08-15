@@ -98,8 +98,10 @@ Earlier shortlist (A Tavola, Tavola, etc.) retained here for history only.
   (3) Gallery: chef-at-work photo centred (`.g-mid`, grid-column 2).
   **Sourcing constraint noted:** Julia cooks in London — dish suggestions must use ingredients
   reliably available there, avoiding rare/very seasonal items (e.g. wild cicoria ruled out).
-  Open: panzanella depends on good summer tomatoes; a winter alternative (fennel, orange &
-  black olive salad) was offered as a seasonal note — awaiting her decision.
+  (4) **Seasonal note added** under the panzanella (new `.course-note` style, site + PDF):
+  *"In winter, fennel, orange & black olive salad"* — covers the months when London tomatoes
+  are poor, and signals cooking with the season. (5) Risotto: **shaved truffle → truffle oil**
+  (reliable to source in London year-round). Parmesan crisp garnish confirmed kept.
 - **2026-08-15** — **Consistency fixes.** (1) Home JSON-LD still advertised `"priceRange":
   "Bespoke — enquire for a quote"` after pricing went public — replaced with `priceRange: "££"`
   plus a proper schema.org **Offer** (GBP 85, `unitText: per person`) so search engines read the
