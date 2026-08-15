@@ -375,16 +375,17 @@ format and the progress — no recipe content.
 - **Costs:** informed estimates at London prices, flagged as such; Julia to confirm
   the real figures at her next shop.
 - **Order of work:** menu by menu ("in fila"), starter → main → dessert.
-- **Progress:** 10 of 27 done — Tortellini in brodo (Emilia-Romagna Tradition) and
-  **all three vegetarian menus complete**: Garden & truffle, Handmade & herbaceous,
-  Flavours of Puglia. Next: the meat menus, starting with *Ragù & cioccolato*.
+- **Progress:** 13 of 27 done — all three **vegetarian** menus (Garden & truffle,
+  Handmade & herbaceous, Flavours of Puglia), the first **meat** menu (Ragù &
+  cioccolato) and the Emilia-Romagna Tradition main (tortellini in brodo). Next:
+  *Roman comfort*.
 
 **Food cost per head, by menu** (informed London estimates, to be confirmed):
 - Garden & truffle — £7,20 · Handmade & herbaceous — £5,84 · Flavours of Puglia —
-  £8,16. Against £85pp that is a food cost of 7–10%: healthy, with room to spend
-  more on the ingredients that show.
-- The single most expensive course so far is the **burrata starter (£3,48pp)** —
-  worth remembering when quoting Flavours of Puglia.
+  £8,16 · Ragù & cioccolato — £6,74. Against £85pp that is a food cost of 7–10%:
+  healthy, with room to spend more on the ingredients that show.
+- Most expensive single course so far: the **burrata starter (£3,48pp)**, then the
+  **pappardelle al ragù (£3,60pp)**. Cheapest: the **torta caprese (£1,03pp)**.
 
 **Two dietary findings worth carrying into client conversations**, surfaced while
 writing the vegetarian menus:
@@ -537,6 +538,10 @@ Recommended order:
   risotto Carnaroli ai funghi e tartufo, tiramisù classico). Card layout simplified on
   her instruction — *Impiattamento*, *Attenzione* and *Da verificare* removed. No
   website files changed in this version.
+- **v1.17 — 2026-08-15** — Ricettario: **Ragù & cioccolato** complete (polenta
+  cremosa con funghi e speck, pappardelle fresche al ragù di manzo, torta caprese) —
+  13 of 27 cards. Added a note to flag pork in the questionnaire (the speck starter),
+  with bresaola or toasted nuts as the substitution. No website files changed.
 - **v1.16 — 2026-08-15** — Ricettario: **Flavours of Puglia** complete (burrata con
   pesche arrostite, parmigiana in cocotte, cheesecake di ricotta al limone e miele) —
   **all three vegetarian menus now done**, 10 of 27 cards. Tiramisù reissued with
