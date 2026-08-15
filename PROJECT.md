@@ -351,6 +351,32 @@ alternative tiers. Natural next step is £95pp once reviews + real photography a
   #privatedininglondon #londonfoodie #italianfood #chefathome #dinnerpartylondon
   #londonevents #freshpasta #aperitivo (rotate; mix reach + local intent).
 
+## 12.1 Ricettario interno — **private, deliberately NOT in this repository**
+
+Julia asked for a written recipe for every course of every menu, to keep in a folder
+on her own computer ("le ricette sono per me, da tenere in una cartella sul mio pc").
+
+**This repository is public, so the recipes are never committed here.** They are
+produced as files and delivered to her directly. This section records only the
+format and the progress — no recipe content.
+
+- **Format:** one A4 page per dish. Delivered as **.docx** (editable, her preference)
+  plus a matching **.pdf** for printing. Brand header, logo mark, brass rule.
+- **Structure of each card:** *Per 4 persone* (yields) → ingredient groups →
+  **Cosa preparo a casa** (timeline: 2 days before / day before / morning of) →
+  **Cosa faccio sul posto** (service sequence) → **Costo indicativo · 4 persone**.
+  Per Julia's instruction the *Impiattamento*, *Attenzione* and *Da verificare*
+  sections were removed on 2026-08-15.
+- **Dosages:** always for 4 people, with a note on how to scale per head.
+- **Sourcing rule:** every ingredient must be reliably findable in **London** —
+  no rare or narrowly seasonal items, with named substitutions where supply varies.
+- **Costs:** informed estimates at London prices, flagged as such; Julia to confirm
+  the real figures at her next shop.
+- **Order of work:** menu by menu ("in fila"), starter → main → dessert.
+- **Progress:** 4 of 27 done — Tortellini in brodo (Emilia-Romagna Tradition) and
+  the complete **Garden & truffle** menu (panzanella pugliese, risotto ai funghi e
+  tartufo, tiramisù classico). Next: *Handmade & herbaceous*.
+
 ## 13. Branding — colours, typography, imagery
 
 **Colour palette (recommended, warm modern-luxury Italian):**
@@ -485,6 +511,13 @@ Recommended order:
 
 ## 19. Version history
 
+- **v1.14 — 2026-08-15** — **Ricettario interno started** (see §12.1). Recipe cards are
+  produced from a reusable generator and delivered to Julia as Word + PDF; they are
+  **not committed to this public repository**, at her request. Four cards complete:
+  Tortellini in brodo, plus the whole **Garden & truffle** menu (panzanella pugliese,
+  risotto Carnaroli ai funghi e tartufo, tiramisù classico). Card layout simplified on
+  her instruction — *Impiattamento*, *Attenzione* and *Da verificare* removed. No
+  website files changed in this version.
 - **v1.7 — 2026-07-19** — **Pricing published: "From £85 per person"** (accessible-quality
   tier). Added an **Investment** section to `menus.html` (three cards: the dinner /
   good-to-know / add-ons, with `.price-list` styling), a "from £85pp — see what's
