@@ -276,7 +276,7 @@ Amalfi lemon & honey.
 **Meat 1 — Ragù & Cioccolato:** Creamy polenta, wild mushroom & crispy speck (pork) · Pappardelle
 w/ beef ragù · Chocolate Caprese cake.
 **Meat 2 — Roman Comfort:** Fennel, orange & black olive salad · British rose veal saltimbocca w/ prosciutto & sage, Parmesan mash · Torta della nonna with toasted pine nuts.
-**Meat 3 — Emilia-Romagna Tradition:** Warm individual erbazzone (Emilian chard & Parmigiano pie) w/ dressed rocket & Traditional Balsamic Vinegar of Modena · Handmade tortellini in a golden chicken broth · Classic Zuppa Inglese.
+**Meat 3 — Emilia-Romagna Tradition:** Erbazzone bites (warm Emilian chard pie) w/ Parmigiano Reggiano shards & Traditional Balsamic Vinegar of Modena — Julia's plating: cut into cubes, Reggio-style · Handmade tortellini in a golden chicken broth · Classic Zuppa Inglese.
 **Fish 1 — Mediterranean Table:** Smoked salmon, fennel, dill, capers & orange vinaigrette ·
 Cod fillet al cartoccio w/ cherry tomato, Taggiasca olives, potatoes & herbs · Lemon Tiramisù.
 **Fish 2 — Coastal & Bright:** Octopus carpaccio · Seafood linguine · Pistachio Panna Cotta.
