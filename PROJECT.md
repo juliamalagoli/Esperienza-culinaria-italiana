@@ -375,22 +375,42 @@ format and the progress — no recipe content.
 - **Costs:** informed estimates at London prices, flagged as such; Julia to confirm
   the real figures at her next shop.
 - **Order of work:** menu by menu ("in fila"), starter → main → dessert.
-- **Progress:** 18 of 27 done — **all six vegetarian and meat menus complete**
-  (Garden & truffle, Handmade & herbaceous, Flavours of Puglia, Ragù & cioccolato,
-  Roman comfort, Emilia-Romagna Tradition). Remaining: the three **fish** menus.
+- **Progress: COMPLETE — 27 of 27 cards**, covering every starter, main and dessert
+  on all nine menus.
 
 **Food cost per head, by menu** (informed London estimates, to be confirmed):
-- Handmade & herbaceous — £5,84 · Ragù & cioccolato — £6,74 · Garden & truffle —
-  £7,20 · Flavours of Puglia — £8,16 · Roman comfort — £8,42 · **Emilia-Romagna
-  Tradition — £9,93** (the dearest). Against £85pp that is a food cost of 7–12%:
-  healthy, with room to spend more on the ingredients that show.
-- Most expensive single course: the **saltimbocca di rose veal (£4,70pp)**, then the
-  **tortellini in brodo (£4,69pp)** and the **pappardelle al ragù (£3,60pp)**.
-  Cheapest: the **torta caprese (£1,03pp)**.
-- Three ingredients drive cost disproportionately in London: **pine nuts** (a third
-  of the torta della nonna), **rose veal** (half the saltimbocca) and **burrata**
-  (most of the Puglia starter). All three are worth paying for — but they are the
-  numbers to know when quoting.
+
+| Menu | Food cost pp | % of £85 |
+|---|---|---|
+| Handmade & herbaceous | £5,84 | 6,9% |
+| Ragù & cioccolato | £6,74 | 7,9% |
+| Garden & truffle | £7,20 | 8,5% |
+| Flavours of Puglia | £8,16 | 9,6% |
+| Roman comfort | £8,42 | 9,9% |
+| Taste of the Mediterranean | £9,32 | 11,0% |
+| Mediterranean table | £9,54 | 11,2% |
+| Emilia-Romagna Tradition | £9,93 | 11,7% |
+| Coastal & bright | £10,22 | 12,0% |
+
+- The fish menus are consistently the dearest — worth knowing, since the price on
+  the site is a single "from £85pp" across all nine.
+- Most expensive single courses: **linguine allo scoglio (£4,75pp)**, **saltimbocca
+  di rose veal (£4,70pp)**, **tortellini in brodo (£4,69pp)**, **merluzzo al
+  cartoccio (£4,50pp)**. Cheapest: **torta caprese (£1,03pp)** and **torta di arance
+  e mandorle (£1,34pp)**.
+- Ingredients that drive cost disproportionately in London: **pine nuts**, **rose
+  veal**, **burrata**, **sashimi-grade tuna**, **vongole veraci** and **pure
+  pistachio paste**. All are worth paying for — they are simply the numbers to know
+  when quoting.
+
+**Allergen and safety notes now captured across the cards** (worth folding into the
+booking questionnaire):
+- Animal rennet in Parmigiano/Grana; gelatine vs agar agar — for strict vegetarians.
+- Pork in the speck starter — bresaola or toasted nuts as the substitution.
+- Raw egg in both tiramisùs — British Lion eggs, or the 121° syrup method.
+- Raw fish in the tuna tartare — must be sashimi-grade/previously frozen, and not
+  served to pregnant or immunocompromised guests.
+- Live molluscs in the linguine — purging, and discarding any that stay open.
 
 **Two menu-wording points that need Julia's decision:**
 - The menu says *"Traditional Balsamic Vinegar of Modena"* on the erbazzone starter.
@@ -551,6 +571,14 @@ Recommended order:
   risotto Carnaroli ai funghi e tartufo, tiramisù classico). Card layout simplified on
   her instruction — *Impiattamento*, *Attenzione* and *Da verificare* removed. No
   website files changed in this version.
+- **v1.20 — 2026-08-15** — **Ricettario complete: 27 of 27 cards.** Added the three
+  fish menus — Mediterranean table, Coastal & bright, Taste of the Mediterranean.
+  Fixed a real defect in the Word generator: a hand-written entity table silently
+  left `&Egrave;`, `&lsquo;`, `&times;` and others as literal text in 13 already-
+  delivered files; replaced with a full decoder that now throws on any unknown
+  entity rather than passing it through. All 27 files rebuilt, re-verified and the
+  13 affected ones re-sent. §12.1 now carries the full food-cost table by menu and
+  the allergen/safety notes to fold into the questionnaire. No website files changed.
 - **v1.19 — 2026-08-15** — Ricettario: **Emilia-Romagna Tradition** complete
   (erbazzone a cubetti with Parmigiano shards and balsamic; zuppa inglese — the
   tortellini main was already card 01) — **all six vegetarian and meat menus now
