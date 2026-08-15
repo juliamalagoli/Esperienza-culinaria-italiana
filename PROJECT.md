@@ -90,6 +90,12 @@ Earlier shortlist (A Tavola, Tavola, etc.) retained here for history only.
   truth. Working branch: `claude/private-chef-brand-website-c1fuw8`.
 - **2026-07-18** — **Brand name locked: "Italy at Your Table."**
 - **2026-07-18** — **Pricing: bespoke — "enquire for a quote"** (no public prices).
+- **2026-08-15** — **Photo-consent question added to the questionnaire** (before "Anything else").
+  Three graded options — full / food close-ups only / none — rather than yes-no, because guests are
+  often happy to have the food shown but not their home. Copy states that a blank answer means no
+  photos and that nothing is shared publicly without permission. Feeds into the WhatsApp summary as
+  `Photo consent: …` (verified). Groundwork for the Instagram content pipeline: Julia enters private
+  homes, so consent must be captured before, not after.
 - **2026-08-15** — **Menu edits (Julia).** (1) **Parmesan crisps removed** from the aperitivo
   of all 9 menus (site + PDF) and from the Experience nibbles list; the risotto's *Parmesan crisp*
   garnish was kept (deliberately added earlier) — pending her confirmation. (2) Burrata appeared in two vegetarian
