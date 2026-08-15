@@ -255,8 +255,6 @@ p { max-width: 66ch; }
 .menu-course:first-of-type { border-top: 0; padding-top: 0; }
 .menu-course .course-label { font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); display: block; margin-bottom: 0.3rem; }
 .menu-course .course-dish { font-family: var(--serif); font-size: 1.15rem; line-height: 1.35; }
-.menu-course .course-note { display: block; margin-top: 0.4rem; font-family: var(--sans); font-size: 0.82rem; font-style: italic; color: var(--muted); }
-.menu-course .course-note::before { content: "↳ "; color: var(--brass); font-style: normal; }
 .price-list { display: grid; gap: 0.85rem; margin-top: 0.5rem; }
 .price-list li { position: relative; padding-left: 1.6rem; color: var(--muted); line-height: 1.45; }
 .price-list li::before { content: ""; position: absolute; left: 0; top: 0.55em; width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--terracotta); }
