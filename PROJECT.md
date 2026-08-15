@@ -373,9 +373,21 @@ format and the progress — no recipe content.
 - **Costs:** informed estimates at London prices, flagged as such; Julia to confirm
   the real figures at her next shop.
 - **Order of work:** menu by menu ("in fila"), starter → main → dessert.
-- **Progress:** 4 of 27 done — Tortellini in brodo (Emilia-Romagna Tradition) and
-  the complete **Garden & truffle** menu (panzanella pugliese, risotto ai funghi e
-  tartufo, tiramisù classico). Next: *Handmade & herbaceous*.
+- **Progress:** 7 of 27 done — Tortellini in brodo (Emilia-Romagna Tradition), the
+  complete **Garden & truffle** menu (panzanella pugliese, risotto ai funghi e
+  tartufo, tiramisù classico) and the complete **Handmade & herbaceous** menu
+  (carpaccio di zucchine, ravioli spinaci e ricotta, panna cotta ai frutti di
+  bosco). Next: *Flavours of Puglia*.
+
+**Two dietary findings worth carrying into client conversations**, surfaced while
+writing the vegetarian menus:
+- **Parmigiano Reggiano and Grana Padano are made with animal rennet**, so they are
+  not vegetarian in the strict sense. For a strictly vegetarian guest, substitute a
+  vegetarian-rennet hard cheese — Twineham Grange (Waitrose, Ocado) is the closest.
+- **Leaf gelatine is animal-derived**, so the panna cotta on the vegetarian menu is
+  set with **agar agar**, not gelatine. This is now the default in the recipe.
+
+Both are worth adding to the questionnaire follow-up when a guest says "vegetarian".
 
 ## 13. Branding — colours, typography, imagery
 
@@ -518,6 +530,11 @@ Recommended order:
   risotto Carnaroli ai funghi e tartufo, tiramisù classico). Card layout simplified on
   her instruction — *Impiattamento*, *Attenzione* and *Da verificare* removed. No
   website files changed in this version.
+- **v1.15 — 2026-08-15** — Ricettario: **Handmade & herbaceous** menu complete
+  (carpaccio di zucchine, ravioli spinaci e ricotta con burro nocciola e salvia,
+  panna cotta ai frutti di bosco) — 7 of 27 cards done. Logged two dietary findings
+  in §12.1 (animal rennet in Parmigiano/Grana; gelatine vs agar agar on the
+  vegetarian menu). No website files changed.
 - **v1.7 — 2026-07-19** — **Pricing published: "From £85 per person"** (accessible-quality
   tier). Added an **Investment** section to `menus.html` (three cards: the dinner /
   good-to-know / add-ons, with `.price-list` styling), a "from £85pp — see what's
