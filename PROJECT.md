@@ -273,7 +273,7 @@ berry coulis.
 **Veg 3 — Flavours of Puglia:** Burrata w/ roasted peaches, pistachios, basil oil & aged
 balsamic · Parmigiana di melanzane baked in an individual cocotte · Ricotta cheesecake w/
 Amalfi lemon & honey.
-**Meat 1 — Ragù & Cioccolato:** Creamy polenta, wild mushroom & crispy speck · Pappardelle
+**Meat 1 — Ragù & Cioccolato:** Creamy polenta, wild mushroom & crispy speck (pork) · Pappardelle
 w/ beef ragù · Chocolate Caprese cake.
 **Meat 2 — Roman Comfort:** Beef carpaccio · Chicken Saltimbocca, Parmesan mash · Torta della nonna with toasted pine nuts.
 **Meat 3 — Emilia-Romagna Tradition:** Parmigiano mousse w/ Modena balsamic, walnuts &
