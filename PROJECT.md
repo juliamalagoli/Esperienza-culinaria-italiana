@@ -90,6 +90,16 @@ Earlier shortlist (A Tavola, Tavola, etc.) retained here for history only.
   truth. Working branch: `claude/private-chef-brand-website-c1fuw8`.
 - **2026-07-18** — **Brand name locked: "Italy at Your Table."**
 - **2026-07-18** — **Pricing: bespoke — "enquire for a quote"** (no public prices).
+- **2026-08-15** — **Menu edits (Julia).** (1) **Parmesan crisps removed** from the aperitivo
+  of all 9 menus (site + PDF) and from the Experience nibbles list; the risotto's *Parmesan crisp*
+  garnish was kept (deliberately added earlier) — pending her confirmation. (2) Burrata appeared in
+  two vegetarian menus: **Veg 3 (Flavours of Puglia) starter → Panzanella pugliese**. Chosen over
+  roasted peppers because the parmigiana main is already rich and peppers in oil read heavy.
+  (3) Gallery: chef-at-work photo centred (`.g-mid`, grid-column 2).
+  **Sourcing constraint noted:** Julia cooks in London — dish suggestions must use ingredients
+  reliably available there, avoiding rare/very seasonal items (e.g. wild cicoria ruled out).
+  Open: panzanella depends on good summer tomatoes; a winter alternative (fennel, orange &
+  black olive salad) was offered as a seasonal note — awaiting her decision.
 - **2026-08-15** — **Consistency fixes.** (1) Home JSON-LD still advertised `"priceRange":
   "Bespoke — enquire for a quote"` after pricing went public — replaced with `priceRange: "££"`
   plus a proper schema.org **Offer** (GBP 85, `unitText: per person`) so search engines read the
@@ -256,7 +266,7 @@ mushroom & truffle risotto w/ Parmesan crisp · Classic Tiramisù.
 **Veg 2 — Handmade & Herbaceous:** Courgette carpaccio w/ lemon, Parmigiano, mint & EVOO · Handmade spinach
 & ricotta ravioli, brown butter, crispy sage & aged Parmigiano flakes · Panna Cotta w/
 berry coulis.
-**Veg 3 — Flavours of Puglia:** Burrata w/ roasted peaches, pistachios, basil oil & aged
+**Veg 3 — Flavours of Puglia:** Panzanella pugliese w/ ripe tomatoes, cucumber, red onion, oregano & crisp bread [was burrata w/ peaches, pistachios, basil oil & aged
 balsamic · Parmigiana di melanzane baked in an individual cocotte · Ricotta cheesecake w/
 Amalfi lemon & honey.
 **Meat 1 — Ragù & Cioccolato:** Creamy polenta, wild mushroom & crispy speck · Pappardelle
