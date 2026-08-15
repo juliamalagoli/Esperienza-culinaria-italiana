@@ -375,22 +375,30 @@ format and the progress — no recipe content.
 - **Costs:** informed estimates at London prices, flagged as such; Julia to confirm
   the real figures at her next shop.
 - **Order of work:** menu by menu ("in fila"), starter → main → dessert.
-- **Progress:** 16 of 27 done — all three **vegetarian** menus (Garden & truffle,
-  Handmade & herbaceous, Flavours of Puglia), two **meat** menus (Ragù & cioccolato,
-  Roman comfort) and the Emilia-Romagna Tradition main (tortellini in brodo). Next:
-  the Emilia-Romagna starter and dessert, then the three fish menus.
+- **Progress:** 18 of 27 done — **all six vegetarian and meat menus complete**
+  (Garden & truffle, Handmade & herbaceous, Flavours of Puglia, Ragù & cioccolato,
+  Roman comfort, Emilia-Romagna Tradition). Remaining: the three **fish** menus.
 
 **Food cost per head, by menu** (informed London estimates, to be confirmed):
-- Garden & truffle — £7,20 · Handmade & herbaceous — £5,84 · Flavours of Puglia —
-  £8,16 · Ragù & cioccolato — £6,74 · **Roman comfort — £8,42** (the dearest so far).
-  Against £85pp that is a food cost of 7–10%: healthy, with room to spend more on
-  the ingredients that show.
+- Handmade & herbaceous — £5,84 · Ragù & cioccolato — £6,74 · Garden & truffle —
+  £7,20 · Flavours of Puglia — £8,16 · Roman comfort — £8,42 · **Emilia-Romagna
+  Tradition — £9,93** (the dearest). Against £85pp that is a food cost of 7–12%:
+  healthy, with room to spend more on the ingredients that show.
 - Most expensive single course: the **saltimbocca di rose veal (£4,70pp)**, then the
-  **pappardelle al ragù (£3,60pp)** and the **burrata starter (£3,48pp)**. Cheapest:
-  the **torta caprese (£1,03pp)**.
-- Two ingredients drive cost disproportionately in London: **pine nuts** (a third of
-  the torta della nonna) and **rose veal** (half the saltimbocca). Both are worth
-  paying for — but they are the numbers to know when quoting.
+  **tortellini in brodo (£4,69pp)** and the **pappardelle al ragù (£3,60pp)**.
+  Cheapest: the **torta caprese (£1,03pp)**.
+- Three ingredients drive cost disproportionately in London: **pine nuts** (a third
+  of the torta della nonna), **rose veal** (half the saltimbocca) and **burrata**
+  (most of the Puglia starter). All three are worth paying for — but they are the
+  numbers to know when quoting.
+
+**Two menu-wording points that need Julia's decision:**
+- The menu says *"Traditional Balsamic Vinegar of Modena"* on the erbazzone starter.
+  That is a **DOP** — the real thing is aged 12+ years and costs £45–60 per 100ml
+  (about £1,10 per dinner, used in drops). Either use the DOP or change the site
+  wording to "balsamic glaze"; the current phrasing is a protected term.
+- The zuppa inglese needs **Alchermes**, which is not in London supermarkets. It has
+  to be ordered ahead (Luxardo, ~£20 for 700ml, enough for about seven dinners).
 
 **Two dietary findings worth carrying into client conversations**, surfaced while
 writing the vegetarian menus:
@@ -543,6 +551,12 @@ Recommended order:
   risotto Carnaroli ai funghi e tartufo, tiramisù classico). Card layout simplified on
   her instruction — *Impiattamento*, *Attenzione* and *Da verificare* removed. No
   website files changed in this version.
+- **v1.19 — 2026-08-15** — Ricettario: **Emilia-Romagna Tradition** complete
+  (erbazzone a cubetti with Parmigiano shards and balsamic; zuppa inglese — the
+  tortellini main was already card 01) — **all six vegetarian and meat menus now
+  done**, 18 of 27 cards. Flagged two wording/sourcing decisions for Julia in §12.1:
+  the protected "Traditional Balsamic Vinegar of Modena" claim on the menu, and
+  ordering Alchermes ahead. No website files changed.
 - **v1.18 — 2026-08-15** — Ricettario: **Roman comfort** complete (insalata di
   finocchi, arance e olive nere; saltimbocca di rose veal con purè al Parmigiano;
   torta della nonna con pinoli) — 16 of 27 cards. Recorded why British rose veal is
