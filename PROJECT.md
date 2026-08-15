@@ -90,6 +90,17 @@ Earlier shortlist (A Tavola, Tavola, etc.) retained here for history only.
   truth. Working branch: `claude/private-chef-brand-website-c1fuw8`.
 - **2026-07-18** — **Brand name locked: "Italy at Your Table."**
 - **2026-07-18** — **Pricing: bespoke — "enquire for a quote"** (no public prices).
+- **2026-08-15** — **Consistency fixes.** (1) Home JSON-LD still advertised `"priceRange":
+  "Bespoke — enquire for a quote"` after pricing went public — replaced with `priceRange: "££"`
+  plus a proper schema.org **Offer** (GBP 85, `unitText: per person`) so search engines read the
+  same price the page shows. (2) Home menu teaser said **"Six sample menus"** when there are
+  **nine** — corrected. No other stale counts found.
+- **2026-08-15** — **GitHub push unblocked.** Root cause of the long 403 run: this session
+  authenticates as **SpaceInvUK**, which had no write access to `juliamalagoli/...`. It was a
+  permissions gap, not the transient outage it was first read as. Fixed by adding SpaceInvUK as
+  a **Write collaborator**; the 5 pending commits pushed (`01eb35e..3f05cb2`), binaries included.
+  **Pages still needs Julia:** enabling it requires repo *admin* (Write is not enough) and the
+  Pages API path is blocked through the proxy, so it cannot be automated from here.
 - **2026-07-19** — **Reviews handled honestly (zero real reviews yet).** Removed **Reviews
   from the top nav** on all pages (footer link kept → invite page). `reviews.html` rebuilt as
   an honest **"Be among the first at my table"** invitation (no fabricated testimonials — UK
