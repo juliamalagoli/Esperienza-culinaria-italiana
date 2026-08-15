@@ -90,6 +90,16 @@ Earlier shortlist (A Tavola, Tavola, etc.) retained here for history only.
   truth. Working branch: `claude/private-chef-brand-website-c1fuw8`.
 - **2026-07-18** — **Brand name locked: "Italy at Your Table."**
 - **2026-07-18** — **Pricing: bespoke — "enquire for a quote"** (no public prices).
+- **2026-08-15** — **Proposals occasion removed** at Julia's request. Taken out fully, not just
+  unlinked: card + meta/OG description on `occasions.html`, sitemap entry, and `proposal.html`
+  itself deleted — an orphaned page would still have been reachable and indexable. Occasions now
+  reads Anniversaries · Birthdays · Dinner parties. (Recoverable from git history if wanted back.)
+- **2026-08-15** — **Business email published:** `italyatyourtable.london@gmail.com`. Added as a
+  *secondary* channel — WhatsApp stays the primary CTA everywhere. Placed in: footer of all 14
+  pages, `contact.html` (under the WhatsApp button + in the aside), and the home JSON-LD `email`
+  field. Positioned for the enquiries that need a paper trail — larger gatherings, gift vouchers,
+  corporate. **Upgrade path:** once the domain is bought, switch to `hello@italyatyourtable.co.uk`
+  forwarding to this Gmail.
 - **2026-08-15** — **Photo-consent question added to the questionnaire** (before "Anything else").
   Three graded options — full / food close-ups only / none — rather than yes-no, because guests are
   often happy to have the food shown but not their home. Copy states that a blank answer means no
