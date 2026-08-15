@@ -375,17 +375,22 @@ format and the progress — no recipe content.
 - **Costs:** informed estimates at London prices, flagged as such; Julia to confirm
   the real figures at her next shop.
 - **Order of work:** menu by menu ("in fila"), starter → main → dessert.
-- **Progress:** 13 of 27 done — all three **vegetarian** menus (Garden & truffle,
-  Handmade & herbaceous, Flavours of Puglia), the first **meat** menu (Ragù &
-  cioccolato) and the Emilia-Romagna Tradition main (tortellini in brodo). Next:
-  *Roman comfort*.
+- **Progress:** 16 of 27 done — all three **vegetarian** menus (Garden & truffle,
+  Handmade & herbaceous, Flavours of Puglia), two **meat** menus (Ragù & cioccolato,
+  Roman comfort) and the Emilia-Romagna Tradition main (tortellini in brodo). Next:
+  the Emilia-Romagna starter and dessert, then the three fish menus.
 
 **Food cost per head, by menu** (informed London estimates, to be confirmed):
 - Garden & truffle — £7,20 · Handmade & herbaceous — £5,84 · Flavours of Puglia —
-  £8,16 · Ragù & cioccolato — £6,74. Against £85pp that is a food cost of 7–10%:
-  healthy, with room to spend more on the ingredients that show.
-- Most expensive single course so far: the **burrata starter (£3,48pp)**, then the
-  **pappardelle al ragù (£3,60pp)**. Cheapest: the **torta caprese (£1,03pp)**.
+  £8,16 · Ragù & cioccolato — £6,74 · **Roman comfort — £8,42** (the dearest so far).
+  Against £85pp that is a food cost of 7–10%: healthy, with room to spend more on
+  the ingredients that show.
+- Most expensive single course: the **saltimbocca di rose veal (£4,70pp)**, then the
+  **pappardelle al ragù (£3,60pp)** and the **burrata starter (£3,48pp)**. Cheapest:
+  the **torta caprese (£1,03pp)**.
+- Two ingredients drive cost disproportionately in London: **pine nuts** (a third of
+  the torta della nonna) and **rose veal** (half the saltimbocca). Both are worth
+  paying for — but they are the numbers to know when quoting.
 
 **Two dietary findings worth carrying into client conversations**, surfaced while
 writing the vegetarian menus:
@@ -538,6 +543,11 @@ Recommended order:
   risotto Carnaroli ai funghi e tartufo, tiramisù classico). Card layout simplified on
   her instruction — *Impiattamento*, *Attenzione* and *Da verificare* removed. No
   website files changed in this version.
+- **v1.18 — 2026-08-15** — Ricettario: **Roman comfort** complete (insalata di
+  finocchi, arance e olive nere; saltimbocca di rose veal con purè al Parmigiano;
+  torta della nonna con pinoli) — 16 of 27 cards. Recorded why British rose veal is
+  the right choice over Dutch veal, which is both an ethical decision and a good
+  thing to be able to explain at the table. No website files changed.
 - **v1.17 — 2026-08-15** — Ricettario: **Ragù & cioccolato** complete (polenta
   cremosa con funghi e speck, pappardelle fresche al ragù di manzo, torta caprese) —
   13 of 27 cards. Added a note to flag pork in the questionnaire (the speck starter),
