@@ -360,8 +360,10 @@ on her own computer ("le ricette sono per me, da tenere in una cartella sul mio 
 produced as files and delivered to her directly. This section records only the
 format and the progress — no recipe content.
 
-- **Format:** one A4 page per dish. Delivered as **.docx** (editable, her preference)
-  plus a matching **.pdf** for printing. Brand header, logo mark, brass rule.
+- **Format:** one A4 page per dish, delivered as **.docx** only — Julia asked for Word
+  so she can edit, and asked that PDFs not be produced unless she requests them.
+  Brand header, logo mark, brass rule. The one-page limit is still enforced on every
+  card (content height checked at 703px, the A4 content width).
 - **Structure of each card:** *Per 4 persone* (yields) → ingredient groups →
   **Cosa preparo a casa** (timeline: 2 days before / day before / morning of) →
   **Cosa faccio sul posto** (service sequence) → **Costo indicativo · 4 persone**.
