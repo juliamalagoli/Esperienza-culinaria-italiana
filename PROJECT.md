@@ -92,9 +92,11 @@ Earlier shortlist (A Tavola, Tavola, etc.) retained here for history only.
 - **2026-07-18** — **Pricing: bespoke — "enquire for a quote"** (no public prices).
 - **2026-08-15** — **Menu edits (Julia).** (1) **Parmesan crisps removed** from the aperitivo
   of all 9 menus (site + PDF) and from the Experience nibbles list; the risotto's *Parmesan crisp*
-  garnish was kept (deliberately added earlier) — pending her confirmation. (2) Burrata appeared in
-  two vegetarian menus: **Veg 3 (Flavours of Puglia) starter → Panzanella pugliese**. Chosen over
-  roasted peppers because the parmigiana main is already rich and peppers in oil read heavy.
+  garnish was kept (deliberately added earlier) — pending her confirmation. (2) Burrata appeared in two vegetarian
+  menus. Final arrangement (after a first pass that changed the wrong menu): **Veg 1 → Panzanella
+  pugliese** (replacing burrata w/ heritage tomatoes) and **Veg 3 keeps burrata w/ roasted peaches**
+  — burrata is Puglian, so it belongs in 'Flavours of Puglia'. Panzanella chosen over roasted
+  peppers because peppers in oil read heavy before a rich main.
   (3) Gallery: chef-at-work photo centred (`.g-mid`, grid-column 2).
   **Sourcing constraint noted:** Julia cooks in London — dish suggestions must use ingredients
   reliably available there, avoiding rare/very seasonal items (e.g. wild cicoria ruled out).
@@ -263,12 +265,12 @@ Each menu opens with **aperitivo mini starters** (differ by menu type):
   Rose sauce · olives.
 Welcome aperitivo drinks: Aperol Spritz · Pimm's Cup · Prosecco · Italian wine · alcohol-free.
 
-**Veg 1 — Garden & Truffle:** Burrata, heritage tomatoes, pesto & sourdough · Wild
+**Veg 1 — Garden & Truffle:** Panzanella pugliese (tomatoes, cucumber, red onion, oregano, crisp bread) · Wild
 mushroom & truffle risotto w/ Parmesan crisp · Classic Tiramisù.
 **Veg 2 — Handmade & Herbaceous:** Courgette carpaccio w/ lemon, Parmigiano, mint & EVOO · Handmade spinach
 & ricotta ravioli, brown butter, crispy sage & aged Parmigiano flakes · Panna Cotta w/
 berry coulis.
-**Veg 3 — Flavours of Puglia:** Panzanella pugliese w/ ripe tomatoes, cucumber, red onion, oregano & crisp bread [was burrata w/ peaches, pistachios, basil oil & aged
+**Veg 3 — Flavours of Puglia:** Burrata w/ roasted peaches, pistachios, basil oil & aged
 balsamic · Parmigiana di melanzane baked in an individual cocotte · Ricotta cheesecake w/
 Amalfi lemon & honey.
 **Meat 1 — Ragù & Cioccolato:** Creamy polenta, wild mushroom & crispy speck · Pappardelle
