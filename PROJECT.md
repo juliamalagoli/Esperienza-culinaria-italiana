@@ -375,11 +375,16 @@ format and the progress — no recipe content.
 - **Costs:** informed estimates at London prices, flagged as such; Julia to confirm
   the real figures at her next shop.
 - **Order of work:** menu by menu ("in fila"), starter → main → dessert.
-- **Progress:** 7 of 27 done — Tortellini in brodo (Emilia-Romagna Tradition), the
-  complete **Garden & truffle** menu (panzanella pugliese, risotto ai funghi e
-  tartufo, tiramisù classico) and the complete **Handmade & herbaceous** menu
-  (carpaccio di zucchine, ravioli spinaci e ricotta, panna cotta ai frutti di
-  bosco). Next: *Flavours of Puglia*.
+- **Progress:** 10 of 27 done — Tortellini in brodo (Emilia-Romagna Tradition) and
+  **all three vegetarian menus complete**: Garden & truffle, Handmade & herbaceous,
+  Flavours of Puglia. Next: the meat menus, starting with *Ragù & cioccolato*.
+
+**Food cost per head, by menu** (informed London estimates, to be confirmed):
+- Garden & truffle — £7,20 · Handmade & herbaceous — £5,84 · Flavours of Puglia —
+  £8,16. Against £85pp that is a food cost of 7–10%: healthy, with room to spend
+  more on the ingredients that show.
+- The single most expensive course so far is the **burrata starter (£3,48pp)** —
+  worth remembering when quoting Flavours of Puglia.
 
 **Two dietary findings worth carrying into client conversations**, surfaced while
 writing the vegetarian menus:
@@ -532,6 +537,13 @@ Recommended order:
   risotto Carnaroli ai funghi e tartufo, tiramisù classico). Card layout simplified on
   her instruction — *Impiattamento*, *Attenzione* and *Da verificare* removed. No
   website files changed in this version.
+- **v1.16 — 2026-08-15** — Ricettario: **Flavours of Puglia** complete (burrata con
+  pesche arrostite, parmigiana in cocotte, cheesecake di ricotta al limone e miele) —
+  **all three vegetarian menus now done**, 10 of 27 cards. Tiramisù reissued with
+  Julia's own quantities (500 g mascarpone / 125 g eggs / 100 g sugar) and her
+  method (whole eggs whipped 10 min, mascarpone folded in for 1 min). Delivery is
+  now **Word only** — PDFs on request. Food cost per head logged per menu in §12.1.
+  No website files changed.
 - **v1.15 — 2026-08-15** — Ricettario: **Handmade & herbaceous** menu complete
   (carpaccio di zucchine, ravioli spinaci e ricotta con burro nocciola e salvia,
   panna cotta ai frutti di bosco) — 7 of 27 cards done. Logged two dietary findings
