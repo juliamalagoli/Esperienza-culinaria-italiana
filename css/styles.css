@@ -264,6 +264,7 @@ p { max-width: 66ch; }
 .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(0.75rem, 1.5vw, 1.25rem); }
 .gallery-grid .ph { border-radius: var(--radius); }
 .g-tall { grid-row: span 2; }
+.g-mid { grid-column: 2; }
 
 /* ------------------------------- Quotes -------------------------------- */
 .quote { max-width: 62ch; }
@@ -391,6 +392,7 @@ p { max-width: 66ch; }
   .footer-grid { grid-template-columns: 1fr; }
   .gallery-grid { grid-template-columns: repeat(2, 1fr); }
   .g-tall { grid-row: span 1; }
+  .g-mid { grid-column: auto; }
 }
 @media (max-width: 480px) {
   .hero { min-height: 88vh; }
