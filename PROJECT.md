@@ -94,6 +94,15 @@ Earlier shortlist (A Tavola, Tavola, etc.) retained here for history only.
   unlinked: card + meta/OG description on `occasions.html`, sitemap entry, and `proposal.html`
   itself deleted — an orphaned page would still have been reachable and indexable. Occasions now
   reads Anniversaries · Birthdays · Dinner parties. (Recoverable from git history if wanted back.)
+- **2026-08-16** — **Balsamic wording corrected.** The Emilia-Romagna starter advertised
+  *"Traditional Balsamic Vinegar of Modena"* — a **DOP**, aged 12+ years, £45–60 per 100ml.
+  Julia will make her own reduction instead, so the menu now reads **"homemade balsamic
+  glaze"**, which is both accurate and consistent with the homemade focaccia and limoncello
+  elsewhere on the menus. Changed on `menus.html`, in the printable PDF (regenerated), and
+  in the erbazzone recipe card, where the DOP note was replaced with the method for the
+  glaze (200ml Balsamico di Modena IGP + 1 tbsp sugar, reduced by two thirds, 12–15 min;
+  keeps for months). Recipe cost fell from £2,95 to £2,83 per head. Shopping list for menu 6
+  updated to match.
 - **2026-08-15** — **Business email published:** `italyatyourtable.london@gmail.com`. Added as a
   *secondary* channel — WhatsApp stays the primary CTA everywhere. Placed in: footer of all 14
   pages, `contact.html` (under the WhatsApp button + in the aside), and the home JSON-LD `email`
@@ -557,9 +566,7 @@ fast mobile performance, alt text, London-focused copy.
       requirement for anyone cooking for paying customers and is free; once done it
       is worth stating on the site, since it reassures people letting a stranger
       into their kitchen.
-- [ ] Decide the *"Traditional Balsamic Vinegar of Modena"* wording on the
-      Emilia-Romagna starter — use the DOP (~£1,10 per dinner in drops) or change
-      the site copy to "balsamic glaze". It is a protected designation.
+- [x] Balsamic wording resolved — see §5 (2026-08-16).
 - [ ] (Optional) Build the Instagram launch grid (9–12 posts + captions).
 
 ## 17. Completed tasks
