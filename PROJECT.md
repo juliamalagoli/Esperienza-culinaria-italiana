@@ -378,6 +378,19 @@ format and the progress — no recipe content.
 - **Progress: COMPLETE — 27 of 27 cards**, covering every starter, main and dessert
   on all nine menus.
 
+**Shopping lists — 9 Word files, one per menu.** Julia asked for a list of what to
+buy for each recipe. Delivered per menu rather than per dish, because that is how
+she actually shops, but each file covers both cases:
+1. **The whole evening**, grouped by shop department in the order you walk a shop
+   (ortofrutta → macelleria → pescheria → latticini → deli → surgelati → dispensa),
+   with repeated ingredients already added together.
+2. **A box of what to order or hunt for in advance**, specific to that menu — rose
+   veal, Alchermes, pure pistachio paste, day-fresh burrata, and so on.
+3. **One short list per dish**, for when she is cooking or testing a single course.
+4. **The aperitivo**, filtered to that menu's version (veg / meat / fish).
+Every line has a tick box. Generated from `spesa-data.js`, kept in step with the
+recipe cards; also off-repo.
+
 **Food cost per head, by menu** (informed London estimates, to be confirmed):
 
 | Menu | Food cost pp | % of £85 |
@@ -571,6 +584,11 @@ Recommended order:
   risotto Carnaroli ai funghi e tartufo, tiramisù classico). Card layout simplified on
   her instruction — *Impiattamento*, *Attenzione* and *Da verificare* removed. No
   website files changed in this version.
+- **v1.21 — 2026-08-16** — **Shopping lists added: 9 Word files, one per menu** (see
+  §12.1). Each covers the whole evening grouped by shop department, a per-menu box
+  of what to order ahead, a short list per dish, and the aperitivo filtered to that
+  menu's version. Tick boxes throughout. Off-repo like the recipes. No website files
+  changed.
 - **v1.20 — 2026-08-15** — **Ricettario complete: 27 of 27 cards.** Added the three
   fish menus — Mediterranean table, Coastal & bright, Taste of the Mediterranean.
   Fixed a real defect in the Word generator: a hand-written entity table silently
