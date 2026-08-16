@@ -323,6 +323,17 @@ photos + testimonials are in place.
 enquiry rate vs. pure "enquire only" (visitors won't message with zero price signal).
 Market context (London 2026): entry £55–75pp · mid/quality £85–120pp · premium £130–200+pp.
 
+**Booking terms (agreed 2026-08-16, live on `menus.html` and `faq.html`):**
+- **25% deposit** secures the date; balance settled after the dinner.
+- **More than 7 days before** — move or cancel free; deposit refunded in full.
+- **Within 7 days** — deposit retained. **Within 48 hours** — 50% of the total.
+- Rationale: much of the cooking starts two to three days out (ragù, broths, fresh
+  pasta) and specialist items — rose veal, Alchermes — are ordered days ahead, so
+  the meaningful window is the week before, not 72 hours. Julia had proposed 20%
+  and 3 days; she agreed to 25% and 7 days.
+- The FAQ wording deliberately ends with "life happens — talk to me and we'll find
+  a way", so the terms read as protection rather than as a penalty clause.
+
 **Internal note / room to grow:** £95pp (quality-niche) and £120pp (premium) were the
 alternative tiers. Natural next step is £95pp once reviews + real photography are live.
 
@@ -540,11 +551,7 @@ fast mobile performance, alt text, London-focused copy.
 - [ ] Create the Instagram handle; then finalise grid + add links to the site.
 - [ ] Choose + register the real domain; update canonicals/sitemap.
 - [ ] Enable GitHub Pages (needs Julia's repo-admin toggle).
-- [ ] **Set the deposit percentage and the cancellation policy**, then publish both
-      on `menus.html` (Investment) and as an FAQ entry. Julia proposed 20% and a
-      3-day window; the recommendation on file is **25% and 7 days**, because the
-      ragù and broth are cooked two days ahead, the rose veal and Alchermes are
-      ordered days in advance, and a Saturday cannot be refilled at 3 days' notice.
+- [x] Deposit and cancellation terms set and published — see §11.
 - [ ] **Confirm UK food-business registration**, Level 2 Food Hygiene and public
       liability insurance. Registration with the local authority is a legal
       requirement for anyone cooking for paying customers and is free; once done it
