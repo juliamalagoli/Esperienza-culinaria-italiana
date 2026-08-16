@@ -536,11 +536,23 @@ fast mobile performance, alt text, London-focused copy.
 
 ## 16. To-do
 
-- [ ] Provide real photography (see shot list §13) to replace placeholders.
-- [ ] Gather first real guest reviews to replace placeholder quotes.
+- [ ] Gather first real guest reviews for `reviews.html`.
 - [ ] Create the Instagram handle; then finalise grid + add links to the site.
 - [ ] Choose + register the real domain; update canonicals/sitemap.
-- [ ] Deploy to Netlify.
+- [ ] Enable GitHub Pages (needs Julia's repo-admin toggle).
+- [ ] **Set the deposit percentage and the cancellation policy**, then publish both
+      on `menus.html` (Investment) and as an FAQ entry. Julia proposed 20% and a
+      3-day window; the recommendation on file is **25% and 7 days**, because the
+      ragù and broth are cooked two days ahead, the rose veal and Alchermes are
+      ordered days in advance, and a Saturday cannot be refilled at 3 days' notice.
+- [ ] **Confirm UK food-business registration**, Level 2 Food Hygiene and public
+      liability insurance. Registration with the local authority is a legal
+      requirement for anyone cooking for paying customers and is free; once done it
+      is worth stating on the site, since it reassures people letting a stranger
+      into their kitchen.
+- [ ] Decide the *"Traditional Balsamic Vinegar of Modena"* wording on the
+      Emilia-Romagna starter — use the DOP (~£1,10 per dinner in drops) or change
+      the site copy to "balsamic glaze". It is a protected designation.
 - [ ] (Optional) Build the Instagram launch grid (9–12 posts + captions).
 
 ## 17. Completed tasks
@@ -576,6 +588,39 @@ Recommended order:
 5. Add **real reviews** as your first dinners happen.
 
 ## 19. Version history
+
+- **v1.22 — 2026-08-16** — **Full site audit, and the fixes from it.** Nothing was
+  broken — no dead links, no orphan anchors, alt text everywhere, sitemap and nav
+  consistent, JSON-LD valid, £85 quoted consistently — but eleven things needed
+  attention. Fixed in this version:
+  - **The aperitivo contradiction.** Three pages said the welcome aperitivo was
+    included; the Investment section sold it as a **+£12pp** add-on. Julia confirmed
+    it is always included and never charged for, so the add-on line is gone and the
+    inclusion is now stated explicitly in what the price covers.
+  - **Social previews.** No `og:image` existed anywhere and 8 of 14 pages had no
+    preview tags at all, so links shared on WhatsApp arrived without a picture —
+    poor for a business that books over WhatsApp. Added a purpose-built 1200×630
+    card (`assets/social-card.jpg`) plus full Open Graph and Twitter tags on all 14
+    pages.
+  - **Occasions added to the top nav.** It and its four child pages (birthday,
+    anniversary, dinner-party, gift) were reachable only from the footer. Verified
+    the 7-item nav does not overflow down to the 1080px hamburger breakpoint.
+  - **Hero legibility.** The overlay was only 0.25 opacity where the intro
+    paragraph sits, over the bright windows in the photo. Now a two-layer gradient.
+  - **Facts line under the hero** — price, area and minimum guests, none of which
+    appeared on the home page before.
+  - **`FAQPage` structured data** on faq.html, generated from the eight questions.
+  - **Link contrast.** Terracotta text was 3.74:1, below WCAG AA. Added
+    `--terracotta-link: #a84f2d` (5.11:1 on ivory, 4.60:1 on ivory-deep) for small
+    text; the original terracotta stays for buttons and decoration.
+  - **Sitemap `lastmod`**, and the ravioli wording in the PDF aligned to the site.
+
+  Deferred to Julia (now in §16): deposit percentage and cancellation policy, food
+  business registration, and the balsamic DOP wording. Not changed: the dietary
+  section of the questionnaire stays a free-text field — Julia asks the
+  vegetarian/pork/pregnancy questions in person when agreeing the menu.
+  `assets/fresh-pasta.jpg` is unused but kept: it is the tagliatelle photo she
+  asked to remove from the gallery, not an oversight.
 
 - **v1.14 — 2026-08-15** — **Ricettario interno started** (see §12.1). Recipe cards are
   produced from a reusable generator and delivered to Julia as Word + PDF; they are
