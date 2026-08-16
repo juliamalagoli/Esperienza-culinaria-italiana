@@ -603,6 +603,24 @@ Recommended order:
 
 ## 19. Version history
 
+- **v1.23 — 2026-08-16** — **Four technical additions.**
+  - **404 page** (`404.html`) in brand style, served automatically by GitHub Pages.
+    All its links are absolute, since a 404 can be served from any path, and it is
+    `noindex, follow`.
+  - **Skip link** on all 15 pages, with `id="main" tabindex="-1"` on every `<main>`.
+    Verified in a browser: first Tab focuses it, Enter moves focus to the content.
+  - **Analytics scaffolding** in `js/main.js` — a single `ANALYTICS` config with
+    `provider: null`, so **nothing is loaded and no data is collected** until Julia
+    has a domain and an account. Switching one string turns on Plausible or Umami
+    across the whole site. Both are cookieless, so no consent banner is needed;
+    that is why Google Analytics was not used.
+  - **One-page info sheet** (`assets/italy-at-your-table-info.pdf`, source in
+    `assets/social/info-sheet.html`): the offer, the three steps of the evening,
+    the nine menus, what's included, the booking terms and the price, on a single
+    A4. Linked from `contact.html` — built to be attached to a WhatsApp enquiry.
+
+
+
 - **v1.22 — 2026-08-16** — **Full site audit, and the fixes from it.** Nothing was
   broken — no dead links, no orphan anchors, alt text everywhere, sitemap and nav
   consistent, JSON-LD valid, £85 quoted consistently — but eleven things needed

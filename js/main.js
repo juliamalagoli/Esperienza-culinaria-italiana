@@ -84,4 +84,40 @@
       form.querySelector("button[type=submit]").disabled = true;
     });
   }
+
+  /* =======================================================================
+     Analytics — SPENTO. Nessun dato viene raccolto finché non lo accendi.
+
+     Per accenderlo servono due cose: il dominio comprato e un account.
+     Poi basta cambiare `provider` qui sotto — nient'altro, su nessuna pagina.
+
+       Plausible  → plausible.io  · ~£7/mese · niente cookie, niente banner
+                    provider: "plausible"  (usa `domain`)
+
+       Umami      → umami.is · gratis fino a 100k eventi · niente cookie
+                    provider: "umami"  +  incolla `websiteId` dalla dashboard
+
+     Entrambi sono senza cookie e non tracciano le persone fra un sito e
+     l'altro: per il GDPR non serve il banner del consenso. Google Analytics
+     lo richiederebbe, ed e' il motivo per cui non lo usiamo.
+     ======================================================================= */
+  var ANALYTICS = {
+    provider: null,                        // null | "plausible" | "umami"
+    domain: "italyatyourtable.co.uk",
+    websiteId: ""                          // solo per Umami
+  };
+
+  if (ANALYTICS.provider === "plausible") {
+    loadAnalytics("https://plausible.io/js/script.js", { "data-domain": ANALYTICS.domain });
+  } else if (ANALYTICS.provider === "umami" && ANALYTICS.websiteId) {
+    loadAnalytics("https://cloud.umami.is/script.js", { "data-website-id": ANALYTICS.websiteId });
+  }
+
+  function loadAnalytics(src, attrs) {
+    var s = document.createElement("script");
+    s.defer = true;
+    s.src = src;
+    Object.keys(attrs).forEach(function (k) { s.setAttribute(k, attrs[k]); });
+    document.head.appendChild(s);
+  }
 })();

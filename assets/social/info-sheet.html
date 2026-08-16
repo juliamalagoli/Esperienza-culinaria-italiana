@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root{ --ivory:#fbf6ee; --olive:#3e4a3a; --terracotta:#b0552f; --ink:#221f1b; --brass:#b08d57; --muted:#6f685c; --line:rgba(34,31,27,.14); }
+  @page { size:A4; margin:12mm 14mm; }
+  *{ margin:0; padding:0; box-sizing:border-box; }
+  body{ font-family:'Inter',sans-serif; color:var(--ink); font-size:9.2pt; line-height:1.5;
+        -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+
+  .hdr{ display:flex; align-items:center; gap:7mm; border-bottom:2px solid var(--brass); padding-bottom:4mm; }
+  .hdr svg{ width:56px; flex-shrink:0; }
+  .brandline{ font-size:8.5pt; font-weight:600; letter-spacing:.30em; text-transform:uppercase; color:var(--terracotta); }
+  h1{ font-family:'Fraunces',serif; font-weight:400; font-size:26pt; line-height:1.05; margin:2mm 0 1mm; }
+  .sub{ font-family:'Fraunces',serif; font-style:italic; font-size:11.5pt; color:var(--muted); }
+
+  h2{ font-size:8pt; font-weight:600; letter-spacing:.22em; text-transform:uppercase; color:var(--terracotta);
+      margin:5mm 0 2mm; padding-bottom:1.2mm; border-bottom:1px solid var(--line); }
+  .cols{ display:flex; gap:8mm; }
+  .col{ flex:1; }
+  ul{ list-style:none; }
+  li{ position:relative; padding:.9mm 0 .9mm 4.2mm; }
+  li:before{ content:""; position:absolute; left:0; top:3mm; width:1.5mm; height:1.5mm; border-radius:50%; background:var(--brass); }
+  b{ font-weight:600; }
+
+  .lead{ font-family:'Fraunces',serif; font-size:11.5pt; line-height:1.55; margin-top:4mm; max-width:none; }
+
+  .steps{ display:flex; gap:5mm; margin-top:1mm; }
+  .step{ flex:1; border:1px solid var(--line); background:#faf5ea; border-radius:2mm; padding:3mm 3.5mm; }
+  .step .n{ font-family:'Fraunces',serif; font-size:14pt; color:var(--terracotta); line-height:1; }
+  .step .t{ font-weight:600; margin:1.5mm 0 1mm; }
+  .step p{ color:var(--muted); font-size:8.6pt; line-height:1.42; }
+
+  .menus{ display:flex; gap:5mm; }
+  .mcol{ flex:1; }
+  .mcol .cat{ font-size:7.6pt; font-weight:600; letter-spacing:.2em; text-transform:uppercase; color:var(--olive); margin-bottom:1.5mm; }
+  .mcol .nm{ font-family:'Fraunces',serif; font-size:11pt; padding:.7mm 0; }
+
+  .price-band{ margin-top:5mm; background:var(--olive); color:var(--ivory); border-radius:2mm; padding:4mm 6mm;
+               display:flex; align-items:baseline; justify-content:space-between; gap:6mm; }
+  .price-band .big{ font-family:'Fraunces',serif; font-size:20pt; line-height:1; white-space:nowrap; }
+  .price-band .note{ font-size:8.6pt; color:#e9dcc6; line-height:1.45; }
+
+  .foot{ margin-top:5mm; padding-top:3mm; border-top:1px solid var(--line); text-align:center; }
+  .foot .cta{ font-family:'Fraunces',serif; font-size:13pt; }
+  .foot .c{ margin-top:2.5mm; font-size:8.6pt; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); line-height:1.9; }
+</style>
+</head>
+<body>
+
+<div class="hdr">
+  <svg viewBox="0 0 120 90" fill="none" stroke="#a98b52" stroke-width="1.05" stroke-linecap="round" stroke-linejoin="round"><g transform="translate(60,46) scale(1.7)"><g transform="rotate(-22)"><path d="M0 -5 L0 24"/><path d="M-4.5 -24 L-4.5 -13 M-1.5 -25 L-1.5 -13 M1.5 -25 L1.5 -13 M4.5 -24 L4.5 -13"/><path d="M-4.5 -13 Q-4.5 -7 0 -5 Q4.5 -7 4.5 -13"/></g><g transform="rotate(22)"><path d="M0 24 L0 -2"/><path d="M0 -2 Q4.8 -12 3.6 -20 Q3.2 -23 0 -22 Z"/></g></g></svg>
+  <div>
+    <div class="brandline">Italy at Your Table</div>
+    <h1>An Italian evening, in your own home.</h1>
+    <div class="sub">Private Italian dining &middot; Central &amp; north London</div>
+  </div>
+</div>
+
+<p class="lead">I'm Julia, an Italian chef from Modena. I arrive at your home, cook everything fresh in your kitchen, serve each course to your table, and leave the kitchen spotless. Not catering, not trays &mdash; an evening.</p>
+
+<h2>How the evening unfolds</h2>
+<div class="steps">
+  <div class="step"><div class="n">01</div><div class="t">The welcome aperitivo</div>
+    <p>Your guests arrive to a drink and warm Italian bites while I cook. Included in every evening, never an extra.</p></div>
+  <div class="step"><div class="n">02</div><div class="t">Dinner, served</div>
+    <p>Four courses, plated and served to the table at your pace. You stay in your seat with your guests.</p></div>
+  <div class="step"><div class="n">03</div><div class="t">A clean kitchen</div>
+    <p>I clear, wash and tidy before I go. Your evening ends with good company, not the washing-up.</p></div>
+</div>
+
+<h2>Nine sample menus &mdash; always tailored to you</h2>
+<div class="menus">
+  <div class="mcol"><div class="cat">Vegetarian</div>
+    <div class="nm">Garden &amp; truffle</div>
+    <div class="nm">Handmade &amp; herbaceous</div>
+    <div class="nm">Flavours of Puglia</div></div>
+  <div class="mcol"><div class="cat">Meat</div>
+    <div class="nm">Rag&ugrave; &amp; cioccolato</div>
+    <div class="nm">Roman comfort</div>
+    <div class="nm">Emilia-Romagna Tradition</div></div>
+  <div class="mcol"><div class="cat">Fish</div>
+    <div class="nm">Mediterranean table</div>
+    <div class="nm">Coastal &amp; bright</div>
+    <div class="nm">Taste of the Mediterranean</div></div>
+</div>
+
+<div class="cols">
+  <div class="col">
+    <h2>What's included</h2>
+    <ul>
+      <li>A <b>four-course menu</b>, shaped together with you</li>
+      <li>The <b>welcome aperitivo</b> &mdash; always included</li>
+      <li>Fresh ingredients, chosen and shopped by me</li>
+      <li>Cooked from scratch in your kitchen</li>
+      <li>Relaxed service through the evening</li>
+      <li>A spotless kitchen before I leave</li>
+      <li>Travel across central &amp; north London</li>
+    </ul>
+  </div>
+  <div class="col">
+    <h2>Good to know</h2>
+    <ul>
+      <li><b>From 2 guests</b> &mdash; ideal for a dinner for two</li>
+      <li>Every menu tailored to allergies &amp; dietary needs</li>
+      <li>Vegan and gluten-free versions on request</li>
+      <li><b>25% deposit</b> secures your date; balance after the dinner</li>
+      <li>Move or cancel <b>free up to 7 days</b> before</li>
+      <li><i>Add on:</i> an extra course +&pound;15pp &middot; wine-pairing guidance &middot; a celebration cake</li>
+    </ul>
+  </div>
+</div>
+
+<div class="price-band">
+  <div class="big">From &pound;85 <span style="font-size:10pt">per person</span></div>
+  <div class="note">Ingredients, cooking, service and clean-up all included. Every evening is quoted bespoke to your guests, menu and occasion &mdash; tell me what you have in mind and I'll send a clear quote.</div>
+</div>
+
+<div class="foot">
+  <div class="cta">Tell me your date and the occasion, and let's plan your evening.</div>
+  <div class="c">WhatsApp 07514&nbsp;488722 &nbsp;&middot;&nbsp; italyatyourtable.london@gmail.com<br/>Julia Malagoli &middot; Private Italian Chef &middot; Central &amp; North London</div>
+</div>
+
+</body>
+</html>
